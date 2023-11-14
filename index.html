@@ -354,7 +354,7 @@
                 <!-- Content Container 3 -->
                 <div id="product-container-three" class="product-content">
                     <div id="content-image-container">
-                        <img src="pics/diskurs.png" id="content-image" class="image3" />
+                        <img src="pics/diskurser.png" id="content-image" class="image3" />
                     </div>
 
                     <div id="content-title-text">
@@ -439,6 +439,17 @@
 
                         </div>
 
+                        <div class="product-features-list">
+                            <div id="inside-features-title-text">
+                                <h2> Den femte diskurs </h2>
+
+                                <p>
+
+                                </p>
+                            </div>
+
+                        </div>
+
                     </div>
                 </div>
 
@@ -454,7 +465,7 @@
                 <!-- Content Container 4 -->
                 <div id="product-container-four" class="product-content">
                     <div id="content-image-container">
-                        <img src="https://i.ibb.co/t3Lnfm6/arrows-blur-close-up-163130.jpg" id="content-image" class="image2" />
+                        <img src="pics/output.jpeg" id="content-image" class="image2" />
                     </div>
 
                     <div id="content-title-text">
@@ -482,8 +493,7 @@
                             <div id="inside-features-title-text">
                                 <h2> Alle børn lærer forskelligt </h2>
 
-                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor, incidintum
-                                    ut labore et dolor magna aliqua. </p>
+
                             </div>
 
                         </div>
@@ -497,7 +507,7 @@
                             <div id="inside-features-title-text">
                                 <h2> Der mangler værktøjer </h2>
 
-                                <p> De fagglærte mangler værktøjer til at </p>
+
                             </div>
 
                         </div>
@@ -509,10 +519,9 @@
                             </div>
 
                             <div id="inside-features-title-text">
-                                <h2> This is test title </h2>
+                                <h2> Implementér specialundervisnings værktøjer til almen </h2>
 
-                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor, incidintum
-                                    ut labore et dolor magna aliqua. </p>
+
                             </div>
 
                         </div>
@@ -524,86 +533,82 @@
                             </div>
 
                             <div id="inside-features-title-text">
-                                <h2> This is test title </h2>
 
-                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor, incidintum
-                                    ut labore et dolor magna aliqua. </p>
+
                             </div>
 
-                        </div>
 
-                        <button id="content-button"> Read More </button>
+                        </div>
                     </div>
+
                 </div>
 
             </div>
 
-        </div>
 
 
 
 
 
 
+            <!-- Media - Video Section -->
 
-        <!-- Media - Video Section -->
+            <div id="main-media-container">
 
-        <div id="main-media-container">
+                <div id="media-title-description">
+                    <h1> Media Produkt </h1>
 
-            <div id="media-title-description">
-                <h1> Media Produkt </h1>
+                    <hr id="title-text-separator">
 
-                <hr id="title-text-separator">
-
-                <p> Vi har lavet en kort video af zoom interviewet hvor vi har valgt nogle af gode Mortens reflektioner og highlightet
-                    dem. </p>
-            </div>
-
-            <div id="media-video-text-container">
-                <div id="media-text">
-                    <h2> Zoom video klip </h2>
-
-                    <p>
-
-                        I klippet deler Morten indsigtsfulde tanker som speciallærer, udfordringer og triumfer i hans daglige arbejde. Hans dedikation
-                        og lidenskab for at støtte elever med forskellige behov skinner tydeligt igennem, og vi får et indblik
-                        i de metoder, der har vist sig mest effektive i hans undervisning.
-                        <br />
-                        <br /> Zoom-interviewet giver seerne mulighed for at opleve øjeblikke af refleksion, inspiration og en
-                        dybere forståelse af specialundervisningens kompleksitet. Morten Henssels erfaringer og indsigter
-                        kan potentielt være en kilde til inspiration for alle, der er involveret i undervisning og støtte
-                        til elever med særlige behov.
-                        <br />
-                        <br /> Vi håber, at dette klip bringer værdifulde perspektiver og indsigter til vores seere og bidrager
-                        til dialogen om inklusion og specialundervisning i uddannelsessystemet.
-                    </p>
-
-                    <button type="button" id="media-button"> Read More </button>
+                    <p> Vi har lavet en kort video af zoom interviewet hvor vi har valgt nogle af gode Mortens reflektioner og
+                        highlightet dem. </p>
                 </div>
 
+                <div id="media-video-text-container">
+                    <div id="media-text">
+                        <h2> Zoom video klip </h2>
 
-                <hr id="text-video-sperator" />
+                        <p>
+
+                            I klippet deler Morten indsigtsfulde tanker som speciallærer, udfordringer og triumfer i hans daglige arbejde. Hans dedikation
+                            og lidenskab for at støtte elever med forskellige behov skinner tydeligt igennem, og vi får et
+                            indblik i de metoder, der har vist sig mest effektive i hans undervisning.
+                            <br />
+                            <br /> Zoom-interviewet giver seerne mulighed for at opleve øjeblikke af refleksion, inspiration og
+                            en dybere forståelse af specialundervisningens kompleksitet. Morten Henssels erfaringer og indsigter
+                            kan potentielt være en kilde til inspiration for alle, der er involveret i undervisning og støtte
+                            til elever med særlige behov.
+                            <br />
+                            <br /> Vi håber, at dette klip bringer værdifulde perspektiver og indsigter til vores seere og bidrager
+                            til dialogen om inklusion og specialundervisning i uddannelsessystemet.
+                        </p>
+
+                        <button type="button" id="media-button"> Read More </button>
+                    </div>
 
 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/gMI6_FoTS00?si=fY-DYxkyn68_BoB2" title="YouTube video player"
-                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
+                    <hr id="text-video-sperator" />
+
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/gMI6_FoTS00?si=fY-DYxkyn68_BoB2" title="YouTube video player"
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+
             </div>
+
+
+
+            <!-- JavaScript/jQuery -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="jquery.js"></script>
+
 
         </div>
 
-
-
-        <!-- JavaScript/jQuery -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="jquery.js"></script>
-
-
-    </div>
-
-    <footer>
-        <p> Studieprodukt PSI / Astrid, Alex og Lotte </p>
-    </footer>
+        <footer>
+            <p> Studieprodukt PSI / Astrid, Alex og Lotte </p>
+        </footer>
 </body>
 
 </html>
