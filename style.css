@@ -47,11 +47,11 @@ html {
 }
 
 body {
-    background: url(https://png.pngtree.com/background/20230618/original/pngtree-white-background-with-purple-pastel-geometric-picture-image_3716197.jpg);
+    background: url("bg22.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100%;
-    background-position: top;
+    background-size: 50%;
+    background-position: left bottom;
     opacity: 0;
 }
 
@@ -71,7 +71,7 @@ body {
 #wrapper #logo h1 {
     font-size: var(--FontH5);
     font-weight: 900;
-    background-color: #9896f1;
+    background-color: #000;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 100%;
