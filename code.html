@@ -18,6 +18,7 @@
 
         .container {
             text-align: center;
+            max-width: 500px;
         }
 
         input[type="password"] {
@@ -31,6 +32,10 @@
 
         .popup {
             display: none;
+
+        }
+
+        .popup .tal {
             margin-top: 20px;
             padding: 20px;
             background-color: rgb(101, 156, 76);
@@ -38,18 +43,39 @@
             font-size: 1.5em;
             border-radius: 5px;
         }
+
+        .cursive {
+            font-style: italic;
+        }
     </style>
 </head>
 
 <body>
 
     <div class="container">
-
+        <p>...De fire baser i DNA er adenin (forkortet A), cytosin (C), guanin (G) og thymin (T). </p>
         <h2>Skriv koden</h2>
 
         <input type="password" id="codeInput" placeholder="Adgangskode" maxlength="4">
-        <div id="popup" class="popup">4</div>
-        <p>...De fire baser i DNA er adenin (forkortet A), cytosin (C), guanin (G) og thymin (T). </p>
+        <div id="popup" class="popup">
+            <div class="tal">4</div>I har løst den første opgave, men nu føler I en kold rislen gennem rummet – som om Marthas ånd står lige
+            bag jer og betragter jer med tårer i øjnene. Da I afslutter opgaven, gløder et ord i mørket, som om det kommer
+            fra Marthas eget sind:
+
+            <br>
+            <br>
+            <span class="cursive">“Han var min ven. Jeg følte mig tryg hos ham. Vi gik sammen gennem skoven, og jeg holdt fast i min yndlingsbamse…
+                den, han havde lavet til mig.”</span>
+            </br>
+            </br>
+
+            Et fragment af Marthas minder kommer til jer: billeder af efterårsskoven, de faldne blade under hendes fødder, lyden af knasende
+            grene – og ham, en person hun stolede på, en hun aldrig ville have frygtet. Hun havde varme følelser for ham,
+            ikke som i en kærlighedshistorie, men som en nær ven. Hvem var han? Og hvorfor lavede han en bamse til hende?
+            Den bamse, som hun elskede så højt, men som nu er forsvundet sammen med hende. Men hvilken bamse var det? Med
+            denne viden går I videre, et skridt tættere på at afsløre Marthas hemmeligheder – og morderens identitet.
+        </div>
+
     </div>
 
     <script>
