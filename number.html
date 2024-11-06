@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Input</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 500px;
+        }
+
+        input[type="password"] {
+            padding: 10px;
+            font-size: 1.2em;
+            width: 200px;
+            text-align: center;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .popup {
+            display: none;
+
+        }
+
+        .popup .tal {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: rgb(101, 156, 76);
+            color: white;
+            font-size: 1.5em;
+            border-radius: 5px;
+        }
+
+        .cursive {
+            font-style: italic;
+        }
+
+        img {
+            max-width: 250px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <p>...På bagsiden ad brevet, står der mere tekst.
+            <br>
+            <span class="cursive"> “Jeg skubbede dig, og du faldt, men det var ikke faldet, der gjorde det. Noget skjult ventede på dig i mørket.
+                En giftig skabning, der stak, før du vidste det.” </span>
+            Det ser ud til at hun døde af en farlig gift da hun faldte. Men hvilket kryb dræbte hende?
+            <br>
+            <br> Dekrypteret besked i tal:
+            <br>
+            <br> “7 18 5 5 14” “2 5 5 20 12 5”
+            <br>
+            <br> Instruktioner: Brug tallene til at finde de tilsvarende bogstaver i alfabetet (A=1, B=2, C=3 osv.).
+            <br>
+            <br> Dekrypter tallene for at afsløre svaret, der peger på det rigtige kryb.</p>
+        <h2>Skriv koden</h2>
+
+        <input type="password" id="codeInput" placeholder="Adgangskode" maxlength="30">
+        <div id="popup" class="popup">
+            <div class="tal">1</div>
+            <h2>"Er du klar til at afsløre, hvem der forvandlede et øjeblik af vrede til en skæbnesvanger hændelse? Tiden er
+                kommet. Drej låsen, og lad sandheden blive kendt."</h2>
+            <img src="martha.jpg">
+        </div>
+
+    </div>
+
+    <script>
+        document.getElementById("codeInput").addEventListener("input", function () {
+            const correctCode = "GREEN BEETLE";
+            const input = this.value;
+
+            if (input === correctCode) {
+                document.getElementById("popup").style.display = "block";
+            } else {
+                document.getElementById("popup").style.display = "none";
+            }
+        });
+    </script>
+
+</body>
+
+</html>
