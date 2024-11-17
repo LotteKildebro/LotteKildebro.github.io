@@ -47,40 +47,44 @@
         .cursive {
             font-style: italic;
         }
+
+        img {
+            max-width: 250px;
+        }
     </style>
 </head>
 
 <body>
 
     <div class="container">
-        <p>...De fire baser i DNA er adenin (forkortet A), cytosin (C), guanin (G) og thymin (T). </p>
+        <p>...På bagsiden ad brevet, står der mere tekst.
+            <br>
+            <span class="cursive"> “Jeg skubbede dig, og du faldt, men det var ikke faldet, der gjorde det. Noget skjult ventede på dig i mørket.
+                En giftig skabning, der stak, før du vidste det.” </span>
+            Det ser ud til at hun døde af en farlig gift da hun faldte. Men hvilket kryb dræbte hende?
+            <br>
+            <br> Dekrypteret besked i tal:
+            <br>
+            <br> “7 18 5 5 14” “2 5 5 20 12 5”
+            <br>
+            <br> Instruktioner: Brug tallene til at finde de tilsvarende bogstaver i alfabetet (A=1, B=2, C=3 osv.).
+            <br>
+            <br> Dekrypter tallene for at afsløre svaret, der peger på det rigtige kryb.</p>
         <h2>Skriv koden</h2>
 
-        <input type="password" id="codeInput" placeholder="Adgangskode" maxlength="4">
+        <input type="password" id="codeInput" placeholder="Adgangskode" maxlength="30">
         <div id="popup" class="popup">
-            <div class="tal">4</div>I har løst den første opgave, men nu føler I en kold rislen gennem rummet – som om Marthas ånd står lige
-            bag jer og betragter jer med tårer i øjnene. Da I afslutter opgaven, gløder et ord i mørket, som om det kommer
-            fra Marthas eget sind:
-
-            <br>
-            <br>
-            <span class="cursive">“Han var min ven. Jeg følte mig tryg hos ham. Vi gik sammen gennem skoven, og jeg holdt fast i min yndlingsbamse…
-                den, han havde lavet til mig.”</span>
-            </br>
-            </br>
-
-            Et fragment af Marthas minder kommer til jer: billeder af efterårsskoven, de faldne blade under hendes fødder, lyden af knasende
-            grene – og ham, en person hun stolede på, en hun aldrig ville have frygtet. Hun havde varme følelser for ham,
-            ikke som i en kærlighedshistorie, men som en nær ven. Hvem var han? Og hvorfor lavede han en bamse til hende?
-            Den bamse, som hun elskede så højt, men som nu er forsvundet sammen med hende. Men hvilken bamse var det? Med
-            denne viden går I videre, et skridt tættere på at afsløre Marthas hemmeligheder – og morderens identitet.
+            <div class="tal">1</div>
+            <h2>"Er du klar til at afsløre, hvem der forvandlede et øjeblik af vrede til en skæbnesvanger hændelse? Tiden er
+                kommet. Drej låsen, og lad sandheden blive kendt."</h2>
+            <img src="martha.jpg">
         </div>
 
     </div>
 
     <script>
         document.getElementById("codeInput").addEventListener("input", function () {
-            const correctCode = "CAT";
+            const correctCode = "GREEN BEETLE";
             const input = this.value;
 
             if (input === correctCode) {
@@ -92,6 +96,5 @@
     </script>
 
 </body>
-
 
 </html>

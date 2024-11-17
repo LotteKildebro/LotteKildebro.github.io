@@ -47,40 +47,49 @@
         .cursive {
             font-style: italic;
         }
+
+        img {
+            max-width: 300px;
+        }
     </style>
 </head>
 
 <body>
 
     <div class="container">
-        <p>...De fire baser i DNA er adenin (forkortet A), cytosin (C), guanin (G) og thymin (T). </p>
+
         <h2>Skriv koden</h2>
-
-        <input type="password" id="codeInput" placeholder="Adgangskode" maxlength="4">
+        <p>Deltagerne finder en gammel seddel fra Martha, skrevet i koder. På sedlen står følgende mystiske besked:
+            <br>
+            <br> “OLJ JQXPJW IJS PTSIJ XSJ”
+            <br>
+            <br>Længere nede er der et hint: “Gå fem trin tilbage i alfabetet for at finde frem til min hemmelighed.” Ved siden
+            af sedlen ligger de to bamser: en blæksprutte og en isbjørn. Kun én af dem har en forbindelse til beskeden og
+            gemmer på næste ledetråd.</p>
+        <input type="password" id="codeInput" placeholder="Adgangskode" maxlength="30">
+        <br>
+        <br>
         <div id="popup" class="popup">
-            <div class="tal">4</div>I har løst den første opgave, men nu føler I en kold rislen gennem rummet – som om Marthas ånd står lige
-            bag jer og betragter jer med tårer i øjnene. Da I afslutter opgaven, gløder et ord i mørket, som om det kommer
-            fra Marthas eget sind:
-
+            <div class="tal">2</div>
+            I finder et brev ved Martha's gravsted:
             <br>
             <br>
-            <span class="cursive">“Han var min ven. Jeg følte mig tryg hos ham. Vi gik sammen gennem skoven, og jeg holdt fast i min yndlingsbamse…
-                den, han havde lavet til mig.”</span>
+            <span class="cursive">“Jeg ved, du aldrig vil læse dette, men jeg er nødt til at sige det. Jeg har altid haft svært ved at vise, hvad
+                jeg følte. Jeg håbede, vi kunne være som før, men jeg var aldrig som de andre – jeg var ikke stærk, ikke
+                god nok. Jeg troede, du ville forstå mig.” “Da du ikke ville kramme mig, føltes det som om noget brød inde
+                i mig. Jeg blev så rasende, så skuffet. Jeg mistede kontrol. Jeg skubbede dig, og du faldt. Jeg skulle aldrig
+                have gjort det. Jeg kan ikke tage det tilbage, og jeg kan ikke glemme det.”</span>
             </br>
-            </br>
-
-            Et fragment af Marthas minder kommer til jer: billeder af efterårsskoven, de faldne blade under hendes fødder, lyden af knasende
-            grene – og ham, en person hun stolede på, en hun aldrig ville have frygtet. Hun havde varme følelser for ham,
-            ikke som i en kærlighedshistorie, men som en nær ven. Hvem var han? Og hvorfor lavede han en bamse til hende?
-            Den bamse, som hun elskede så højt, men som nu er forsvundet sammen med hende. Men hvilken bamse var det? Med
-            denne viden går I videre, et skridt tættere på at afsløre Marthas hemmeligheder – og morderens identitet.
         </div>
+
+        <img src="cipher.jpg">
+        <p>Svaret kommer når i har fundet den rigtige bamse. Kryptér med -5 </p>
 
     </div>
 
     <script>
         document.getElementById("codeInput").addEventListener("input", function () {
-            const correctCode = "CAT";
+            const correctCode = "JEG ELSKER DEN KOLDE SNE";
             const input = this.value;
 
             if (input === correctCode) {
@@ -92,6 +101,5 @@
     </script>
 
 </body>
-
 
 </html>
