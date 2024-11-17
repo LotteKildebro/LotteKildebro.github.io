@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HD Portfolio - Lotte Kildebro</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Cedarville+Cursive&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Cedarville+Cursive&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- Navbar Section -->
+    <nav class="navbar">
+
+        <div class="logo">
+            <img src="pics/screw.svg" width="30px">HD Portfolio
+
+        </div>
+
+
+        <!-- Burger Icon for Mobile -->
+        <div id="burger" class="burger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- Navigation Menu -->
+        <ul class="menu">
+            <li>
+                <a href="#all" class="filter-btn" data-filter="all">Alle</a>
+            </li>
+            <li>
+                <a href="#projekter" class="filter-btn" data-filter="Projekter">Projekter</a>
+            </li>
+            <li>
+                <a href="#reflektioner" class="filter-btn" data-filter="Reflektioner">Reflektioner</a>
+            </li>
+            <li>
+                <a href="#hårdeværksted" class="filter-btn" data-filter="Hårde værksted">Hårde værksted</a>
+            </li>
+            <li>
+                <a href="#blødeværksted" class="filter-btn" data-filter="Bløde værksted">Bløde værksted</a>
+            </li>
+
+            <li>
+                <a href="#Om mig" class="filter-btn" data-filter="Om mig">Om mig</a>
+            </li>
+            <!-- Search input inside the menu for mobile view -->
+            <li>
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Search...">
+                    <i class="search-icon fas fa-search"></i>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio">
+        <a href="items/project.html?project=web1" class="portfolio-item" data-category="Hårde værksted">
+            <h3>Website Project 1</h3>
+            <p>Description of web project 1.</p>
+        </a>
+
+        <a href="items/project.html?project=design1" class="portfolio-item" data-category="Bløde værksted">
+            <h3>Design Project 1</h3>
+            <p>Description of design project 1.</p>
+        </a>
+
+        <a href="items/project.html?project=genstandsanalyse" class="portfolio-item" data-category="Projekter">
+            <h3>Genstands Analyse, dag 1</h3>
+            <p>Analyse af 2 genstande medbragt til første undervisning i HD.</p>
+        </a>
+
+        <a href="items/project.html?project=fortællerpose" class="portfolio-item" data-category="Projekter">
+            <h3>Fortællerpose</h3>
+            <p>Studieprodukt 1 som omfattede en fortællerpose med elementer fra det bløde og hårde værksted.</p>
+        </a>
+
+
+    </section>
+    <!-- HTML -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>© 2024 Lotte Kildebro. All rights reserved.
+                <br>Studienummer: 10114002</p>
+
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

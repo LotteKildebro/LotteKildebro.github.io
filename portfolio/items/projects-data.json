@@ -1,0 +1,59 @@
+[{
+        "id": "web1",
+        "title": "Website Project 1",
+        "subtitle": "An amazing web project",
+        "description": [
+            "This project is all about building responsive and dynamic websites.",
+            "It showcases HTML, CSS, and JavaScript skills in action."
+        ],
+        "gallery": ["image1.jpg", "image2.jpg", "image3.jpg"]
+    },
+    {
+        "id": "design1",
+        "title": "Design Project 1",
+        "subtitle": "Creative design work",
+        "description": [
+            "This project demonstrates creative design using modern tools.",
+            "Focusing on user experience and aesthetics."
+        ],
+        "iframe": "",
+        "gallery": ["design1.jpg", "design2.jpg", "design3.jpg"],
+        "url": ""
+    },
+    {
+        "id": "genstandsanalyse",
+        "title": "Genstands Analyse, dag 1",
+        "subtitle": "Første opgave vi havde i håndværk og design: Analysér og medbring minimum 2 genstande",
+        "description": [
+            "Første undervisning i HD skulle vi medbringe genstande vi skulle analysere.",
+            "Jeg valgte at medbringe en nøglehydeholder som jeg selv har lavet af bæredygtigt materiale, hjemme i mit hobbyrum. Derudover tog jeg et æggebæger med en af mine folkeskolelærer venner har drejet i HD. Jeg valgte at visualisere mine genstands analyser med et powerpoint.",
+            "Se hele powerpointet her:",
+            ""
+        ],
+        "iframe": "<iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vTlAVN5FkcZPQbdZaK3kCON6lTojSii-tgS_z1Iong1mVkezdHXxaSDkZlirHG_CZ7T5jTcAvtPPKY3/embed?start=true&loop=true&delayms=3000\" frameborder=\"0\" width=\"756\" height=\"400\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>",
+        "gallery": "",
+        "url": ""
+
+    },
+    {
+        "id": "fortællerpose",
+        "title": "Fortællerpose",
+        "subtitle": "Creative design work",
+        "description": [
+            "This project demonstrates creative design using modern tools.",
+            "Focusing on user experience and aesthetics.",
+            "Se hele powerpointet her:",
+            ""
+        ],
+        "iframe": "<iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vQa8MKoBbjGOeOianpAFtulYjuUlRCIEOwmtgoPAMqsjWX5xK7E_cnRncamYh-SoKCq6q3NmyJhW3Dh/embed?start=true&loop=false&delayms=3000\" frameborder=\"0\" width=\"756\" height=\"400\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>",
+        "gallery": ["gallery/moodboard.png", "design2.jpg", "design3.jpg"],
+        "url": "<a href=\"https:\/\/docs.google.com\/document\/d\/e\/2PACX-1vSQi96RCI4HhXNk2tchAfMrdWt28y1w_nr44_j88ZbhPbcyEcMUTaBJ23_uHUQxVj7qWU8E1QJyonRm\/pub\">Google Document</a>",
+        "iframe2": "<iframe src=\"gallery\/brochure.pdf\" width=\"750\" height=\"950\" style=\"border: none;\"><\/iframe>",
+        "description2": [
+            "This project demonstrates creative design using modern tools.",
+            "Focusing on user experience and aesthetics.",
+            "Se hele powerpointet her:",
+            ""
+        ]
+    }
+]

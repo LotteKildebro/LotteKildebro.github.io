@@ -1,0 +1,332 @@
+/* Basic Reset */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #f9f7f0;
+    color: #18b7be;
+    position: relative;
+    transition: padding 0.3s ease;
+}
+
+.logo {
+    color: #18b7be;
+    font-size: 1.2em;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    display: flex;
+    align-items: center;
+}
+
+/* Hide the text part of the logo on all screens below 1000px */
+
+@media (max-width: 1000px) {
+    .logo {
+        font-size: 0;
+        color: #072a40;
+        /* Hides the text */
+    }
+    .logo img {
+        width: 30px;
+        /* Adjust logo size if necessary */
+    }
+}
+
+/* Menu Styling */
+
+.menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 20px;
+    white-space: nowrap;
+    /* Prevent wrapping */
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu a {
+    color: #072a40;
+    text-decoration: none;
+    padding: 0.5em .1em;
+    font-size: .8em;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #18b7be;
+}
+
+#search-input {
+    padding: 0.2em;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    max-width: 150px;
+}
+
+/* footer */
+
+/* CSS */
+
+.footer {
+    background-color: #072a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
+/* Cool Search Input Style */
+
+#search-input {
+    width: 100%;
+    max-width: 180px;
+    padding: 8px 20px 8px 40px;
+    border: 1px solid #18b7be;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#search-input:focus {
+    outline: none;
+    border-color: #18b7be;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+#search-input::placeholder {
+    color: #999;
+    font-style: italic;
+}
+
+.search-container {
+    position: relative;
+    width: 100%;
+    max-width: 180px;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: #18b7be;
+    font-size: 15px;
+}
+
+/* Burger Menu Icon */
+
+.burger {
+    display: none;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    cursor: pointer;
+}
+
+.burger span {
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #18b7be;
+    left: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease, top 0.3s ease;
+}
+
+.burger span:nth-child(1) {
+    top: 6px;
+}
+
+.burger span:nth-child(2) {
+    top: 12px;
+}
+
+.burger span:nth-child(3) {
+    top: 18px;
+}
+
+.burger.open span:nth-child(1) {
+    transform: rotate(45deg);
+    top: 12px;
+}
+
+.burger.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.burger.open span:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 12px;
+}
+
+/* Portfolio Section */
+
+/* Portfolio Container */
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 2em;
+    justify-content: center;
+}
+
+/* Portfolio Item */
+
+.portfolio-item {
+    width: calc(33.333% - 2em);
+    padding: 1em;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    /* Ensure positioning for badge */
+}
+
+.portfolio-item h3 {
+    margin-bottom: 0.5em;
+    color: #072a40;
+}
+
+.portfolio-item p {
+    color: #666;
+}
+
+/* Hover Effects */
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Link Style */
+
+a.portfolio-item {
+    text-decoration: none;
+    color: #1a1818;
+}
+
+/* Category Badge */
+
+.portfolio-item::before {
+    content: attr(data-category);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #18b7be;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    opacity: 0;
+    /* Initially hidden */
+    transition: opacity 0.3s ease-in-out;
+}
+
+.portfolio-item:hover::before {
+    opacity: 1;
+    /* Visible on hover */
+}
+
+/* Desktop and Medium Screens (above 768px and below 1000px) */
+
+@media (max-width: 1024px) {
+    .menu {
+        gap: 15px;
+    }
+    .portfolio-item {
+        width: calc(50% - 1em);
+    }
+    #search-input {
+        max-width: 150px;
+    }
+}
+
+/* Mobile View (below 768px) */
+
+@media (max-width: 768px) {
+    .burger {
+        display: block;
+    }
+    /* Ensure the menu is hidden by default */
+    ul.menu {
+        position: absolute;
+        top: 40px;
+        right: 0;
+        background-color: #f9f7f0;
+        width: 100%;
+        max-height: 0;
+        /* Initially hide the menu */
+        overflow: hidden;
+        flex-direction: column;
+        transition: max-height 0.3s ease;
+        white-space: normal;
+        z-index: 1;
+        /* Allow wrapping for mobile */
+    }
+    .menu.open {
+        max-height: 350px;
+        /* Expand menu when burger is clicked */
+    }
+    .menu li {
+        text-align: center;
+        margin: 0.5em 0;
+    }
+    #search-input {
+        width: 90%;
+        margin: 0.5em auto;
+    }
+    .portfolio-item {
+        width: 100%;
+    }
+    /* Adjust Navbar Height for Mobile */
+    .navbar {
+        padding: 0.5em 1em;
+        /* Reduced padding for a more compact navbar */
+    }
+}
+
+/* Extra small screens (below 480px) */
+
+@media (max-width: 480px) {
+    .menu {
+        padding: 1em;
+    }
+    #search-input {
+        width: 80%;
+        padding: 0.4em;
+    }
+}
