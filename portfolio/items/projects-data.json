@@ -30,10 +30,15 @@
             "Se hele powerpointet her:",
             ""
         ],
-        "iframe": "<iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vTlAVN5FkcZPQbdZaK3kCON6lTojSii-tgS_z1Iong1mVkezdHXxaSDkZlirHG_CZ7T5jTcAvtPPKY3/embed?start=true&loop=true&delayms=3000\" frameborder=\"0\" width=\"756\" height=\"400\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>",
-        "gallery": "",
-        "url": ""
-
+        "iframe": "<iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vTlAVN5FkcZPQbdZaK3kCON6lTojSii-tgS_z1Iong1mVkezdHXxaSDkZlirHG_CZ7T5jTcAvtPPKY3/embed?start=true&loop=false&delayms=3000\" frameborder=\"0\" width=\"960\" height=\"569\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>",
+        "gallery": ["gallery/genstand.jpg", "gallery/genstand.jpg", "gallery/genstand.jpg"],
+        "description2": [
+            "Vi arbejdede med design-trekants modellen med vores genstande(Se billede nedenfor hvor genstandende er placeret). Design-trekanten, bestående af æstetik, kommunikation og funktion, er en fascinerende model, der udfordrer designere til at skabe produkter, der er både smukke, forståelige og brugbare. Denne model understreger vigtigheden af at finde en balance mellem de tre elementer, hvilket ofte kan være en kompleks opgave.",
+            "Æstetik handler om det visuelle udtryk og den æstetiske appel, som et design har. Det er det første, brugerne lægger mærke til, og det kan skabe en stærk følelsesmæssig forbindelse. Et æstetisk tiltalende design kan tiltrække og fastholde brugernes opmærksomhed, men det må ikke ske på bekostning af funktionaliteten.",
+            "Kommunikation er lige så vigtig, da det handler om, hvordan designet formidler information og budskaber til brugerne. Et godt design skal være intuitivt og let at forstå, så brugerne hurtigt kan finde ud af, hvordan de skal interagere med det. Effektiv kommunikation i designet kan forbedre brugeroplevelsen markant.",
+            "Funktion dækker over designets praktiske anvendelighed. Et funktionelt design opfylder brugernes behov og forventninger på en effektiv måde. Det skal være nemt at bruge og løse de problemer, det er designet til at håndtere. Uden funktionalitet vil selv det mest æstetisk tiltalende design miste sin værdi.",
+            ""
+        ]
     },
     {
         "id": "fortællerpose",

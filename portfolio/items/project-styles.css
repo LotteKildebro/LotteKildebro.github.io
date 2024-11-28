@@ -50,24 +50,34 @@ body {
 
 /* Project Description */
 
-.project-description p {
+.project-description p,
+.project-description2 p {
     margin-bottom: 15px;
     line-height: 1.6;
+}
+
+.project-description2 {
+    margin-top: 20px;
 }
 
 /* Gallery Section */
 
 .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 10px;
     margin-top: 20px;
+    overflow: hidden;
+    /* Ensure the container clears the floated items */
 }
 
 .gallery-item {
+    float: left;
+    width: calc(33.333% - 20px);
+    /* Adjust the percentage as needed */
+    margin: 10px;
+    /* Adds space around each item */
     overflow: hidden;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
 }
 
 .gallery-item img {
@@ -76,7 +86,7 @@ body {
     transition: transform 0.3s ease;
 }
 
-.gallery-item img:hover {
+.gallery-item:hover {
     transform: scale(1.05);
     cursor: pointer;
 }
