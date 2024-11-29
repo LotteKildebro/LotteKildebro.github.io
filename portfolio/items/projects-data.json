@@ -1,24 +1,147 @@
 [{
-        "id": "web1",
-        "title": "Website Project 1",
-        "subtitle": "An amazing web project",
+        "id": "filt1",
+        "title": "Filt blæksprutte",
+        "subtitle": "Processen i at nålefilte en blæksprutte i uld.",
         "description": [
-            "This project is all about building responsive and dynamic websites.",
-            "It showcases HTMLj, CSS, and JavaScript skills in action."
+            "Jeg startede med at rulle små aflange arme, otte i alt, og et hoved. For at skabe disse dele brugte jeg restuld, hvor jeg blandede flere farver for at få en unik blå nuance. Underlaget, jeg brugte, var en filtemåtte, som beskytter både nålen og arbejdsfladen.",
+            "Nålefiltning er en teknik, hvor man bruger en speciel filtenål til at forme og komprimere ulden. Ved at stikke nålen gentagne gange gennem ulden, filtres fibrene sammen og skaber en fast struktur. Efter at have formet armene og hovedet, nålefiltede jeg delene sammen ved at stikke nålen gennem samlingerne, indtil de var solidt forbundet.",
+            "For at spare på ulden og skabe fylde, kan man bruge en svamp i midten af emnet. Dette giver ikke kun volumen, men gør også emnet lettere og mere økonomisk at fremstille. Efter at have samlet blækspruttens krop, lavede jeg øjnene ved at rulle små klumper af uld og nålefilte dem på plads.",
+            "Denne proces var både udfordrende og sjov, og det var fascinerende at se, hvordan ulden gradvist blev til en lille, charmerende blæksprutte. Nålefiltning kræver tålmodighed og præcision, men resultatet er en unik og personlig skabning, der virkelig afspejler ens kreativitet."
+
         ],
-        "gallery": ["image1.jpg", "image2.jpg", "image3.jpg"]
+        "gallery": ["gallery/filt1.jpg", "gallery/filt2.jpg", "gallery/filt3.jpg", "gallery/filt4.jpg", "gallery/filt5.jpg"],
+        "description2": [
+            ""
+        ]
     },
     {
-        "id": "design1",
-        "title": "Design Project 1",
-        "subtitle": "Creative design work",
+        "id": "brodering1",
+        "title": "Brodering af navneskilt",
+        "subtitle": "Processen i at brodere et personligt navneskilt.",
         "description": [
-            "This project demonstrates creative design using modern tools.",
-            "Focusing on user experience and aesthetics."
+            "Jeg broderede et navneskilt, og dette var efter mange år hvor jeg ikke har broderet så det lå lidt fjernt i hukommelsen. Jeg valgte at bruge stikkesting til bogstaverne og franske knuder til blomsterne, hvilket gav et feminint resultat. Stikkesting er en grundlæggende broderiteknik, hvor nålen føres op og ned gennem stoffet for at skabe lige linjer, mens franske knuder tilføjer en tredimensionel effekt ved at sno tråden rundt om nålen og trække den gennem stoffet.",
+
+            "Jeg fandt præcision udfordrende, især når det kom til at holde linjerne lige og knuderne ensartede. For at forbedre min præcision planlægger jeg at øve mig på broderistof med trykte afmærkninger, også kendt som broderistof med mønster. Dette stof har fortrykte linjer og mønstre, som hjælper med at guide nålen og sikre, at stingene placeres korrekt.",
+
+            "Under arbejdet med navneskiltet lærte jeg vigtigheden af tålmodighed og omhyggelighed. Det kræver tid at mestre teknikkerne og opnå den ønskede præcision. Pauser og at se på arbejdet fra forskellige vinkler viste sig at være nyttige metoder til at sikre, at alt så rigtigt ud.",
+
+            "Selvom processen var udfordrende, var det utroligt tilfredsstillende at se det færdige resultat. Navneskiltet blev en personlig og unik genstand, som jeg er stolt af. Denne oplevelse har motiveret mig til at fortsætte med at øve mig og forbedre mine færdigheder inden for broderi. Jeg ser frem til at prøve flere projekter og udforske forskellige teknikker og mønstre.",
+
+            "Arbejdet med broderi har også givet mig en dybere forståelse for håndværkets detaljer og skønhed."
         ],
-        "iframe": "",
-        "gallery": ["design1.jpg", "design2.jpg", "design3.jpg"],
-        "url": ""
+        "gallery": ["gallery/navneskilt1.jpg", "gallery/navneskilt2.jpg", "gallery/navneskilt3.jpg", "gallery/navneskilt4.jpg", "gallery/navneskilt5.jpg", "gallery/navneskilt6.jpg"],
+        "description2": [
+            ""
+        ]
+    },
+    {
+        "id": "brodering2",
+        "title": "Broderi: øvelse af et par sting",
+        "subtitle": "Processen i at øve et par forskellige broderi sting.",
+        "description": [
+            "Jeg har øvet mig i forskellige broderisting for at forbedre mine færdigheder og udforske nye teknikker. Stikkesting var en af de første teknikker, jeg prøvede. Det er en grundlæggende teknik, hvor nålen føres op og ned gennem stoffet for at skabe lige linjer. Denne teknik er nyttig til konturer og detaljer.",
+
+            "Franske knuder var en anden teknik, jeg øvede mig på. Ved at sno tråden rundt om nålen og trække den gennem stoffet, skabes små, tredimensionelle knuder, der er perfekte til at tilføje tekstur og dybde til et design.",
+
+            "Korssting var også en del af min øvelse. Denne teknik involverer at lave små krydsformede sting, der danner et mønster. Korssting er ideelle til at skabe fyldige og farverige designs.",
+
+            "Fladsyning var den sidste teknik, jeg arbejdede med. Denne teknik indebærer at lave lange, parallelle sting, der dækker et område af stoffet. Fladsyning er fantastisk til at fylde større områder og skabe en glat overflade."
+
+        ],
+        "gallery": ["gallery/sting1.jpg", "gallery/sting2.jpg"],
+        "description2": [
+            ""
+        ]
+    },
+    {
+        "id": "flyve",
+        "title": "Flyvende genstand i træ",
+        "subtitle": "En flyvende genstand lavet af rester af træ.",
+        "description": [
+            "Vi fik til opgave at lave en flyvende genstand af rester af træ. Jeg besluttede mig for at skabe en dartpil af resttræ, hvilket blev en spændende og lærerig proces. Først fandt jeg et passende stykke træ og tegnede omhyggeligt afmærkninger for at sikre, at pilen ville få den rette form og balance. Derefter brugte jeg en båndsav for første gang. Desværre knækkede klingen undervejs, hvilket var en smule demotiverende. Men jeg fortsatte og fik savet pilen færdig.",
+
+            "Efter savningen gik jeg i gang med at slibe pilen for at give den en glat og aerodynamisk overflade. Selvom jeg ikke nåede at lime stykkerne sammen, planlægger jeg at gøre det senere for at fuldende projektet.",
+
+            "Denne opgave lærte mig meget om både værktøjsbrug og tålmodighed. At arbejde med en båndsav kræver præcision og forsigtighed, og jeg lærte vigtigheden af at være vedholdende, selv når tingene ikke går som planlagt. Det var også en god øvelse i at arbejde med restmaterialer og finde kreative måder at genbruge dem på.",
+
+            "Selvom dartpilen ikke blev helt færdig, er jeg tilfreds med de fremskridt, jeg gjorde, og ser frem til at afslutte projektet. Denne oplevelse har givet mig mod på at prøve flere projekter med resttræ og udforske nye teknikker og værktøjer."
+        ],
+        "gallery": ["gallery/flyve1.jpg", "gallery/flyve2.jpg", "gallery/flyve3.jpg", "gallery/flyve4.jpg", "gallery/flyve5.jpg", "gallery/flyve6.jpg"],
+        "description2": [
+            ""
+        ]
+    },
+    {
+        "id": "overflade1",
+        "title": "Overfladebehandling af træ",
+        "subtitle": "Forskellige overfladebehandlinger af træ.",
+        "description": [
+            "til overfladebehandling af træ, er der flere metoder at vælge imellem. Linolie er populært for sin evne til at trænge dybt ind i træet og beskytte det mod fugt. Påfør et jævnt lag med en pensel og lad det trække ind, tør derefter overskydende olie af.",
+
+            "Bejse bruges til at ændre træets farve og fremhæve åretegningerne. Påfør bejse med en klud eller pensel, og tør overskuddet af for en jævn farve.",
+
+            "Lak giver en hård, beskyttende overflade og kan påføres i flere lag for ekstra holdbarhed. Husk altid at forberede træet ved at slibe og rense det grundigt inden behandling.",
+            "Når du overfladebehandler træ, kan du bruge naturlige materialer som bær, gurkemeje og andre planter. Bær som blåbær og hindbær kan bruges til at farve træet. Knus bærrene og påfør saften på træet med en klud, lad det tørre, og gentag processen for en dybere farve.",
+
+            "Gurkemeje er kendt for sin intense gule farve og kan bruges til at give træet en varm, gylden tone. Bland gurkemejepulver med vand eller olie, og påfør blandingen på træet med en pensel. Lad det tørre, og påfør flere lag for en mere intens farve.",
+
+            "Andre naturlige materialer som kaffegrums og te kan også bruges til at farve træet. Kog kaffegrums eller teblade i vand, og påfør væsken på træet med en klud. Disse metoder giver træet en naturlig og unik farve, samtidig med at de er miljøvenlige.",
+            "Udover dette er der akrylmaling som er ideel til overfladebehandling af træ, da den giver en holdbar, farverig finish. Den tørrer hurtigt og beskytter træet mod slid og skader."
+        ],
+        "gallery": ["gallery/overflade1.jpg", "gallery/overflade2.jpg", "gallery/overflade3.jpg", "gallery/overflade4.jpg", "gallery/overflade5.jpg", "gallery/overflade6.jpg"],
+        "description2": [
+            ""
+        ]
+    },
+    {
+        "id": "boks",
+        "title": "Boks af træ",
+        "subtitle": "Boks lavet af rester af træ, til escape room/fortællerpose.",
+        "description": [
+            "Jeg lavede en boks af træ til et transportabelt escape room. Det var en sjov og udfordrende del af opgaven med fortællerposen. Arbejdet med træmaterialer kræver præcision og tålmodighed, og det kan være svært at mestre de forskellige teknikker.",
+
+            "Jeg startede med opmåling ved hjælp af en glidende mærkningsmåler og en snedkervinkel for at sikre lige og præcise afmærkninger. Dette trin er afgørende for at få et godt resultat, da nøjagtige målinger er fundamentet for hele projektet.",
+
+            "Til udskæringen brugte jeg en geringssav, hvilket var en ny oplevelse for mig. For at kunne skære hele vejen igennem emnet, placerede jeg et ekstra stykke træ under det. Selvom jeg knækkede klingen undervejs, fortsatte jeg og fik et lige resultat.",
+
+            "For at sikre ekstra holdbarhed brugte jeg trælim. For at forhindre flækning i træet forborede jeg huller med en boremaskine og den passende størrelse på boret. Dette trin var vigtigt for at undgå skader på træet under samlingen.",
+
+            "Jeg brugte også en blanding af smuld og lim til at lappe gaps og udjævne overfladen. Overfladebehandlingen med akrylmaling gav både udtryk og beskyttelse til boksen. Slibning og mellemslibning fjernede fiberrejsning og sikrede en glat finish.",
+
+            "Selvom processen var udfordrende, lærte jeg meget om træarbejde og de forskellige teknikker. Det kræver øvelse og tålmodighed at mestre, men resultatet var en funktionel og æstetisk boks, der kunne bruges i mit escape room. Denne oplevelse har givet mig mod på at tackle flere træprojekter i fremtiden."
+        ],
+        "gallery": ["gallery/boks1.jpg", "gallery/boks2.jpg", "gallery/boks3.jpg", "gallery/boks4.jpg", "gallery/boks5.jpg", "gallery/boks6.jpg", "gallery/boks7.jpg", "gallery/boks8.jpg", "gallery/boks9.jpg", "gallery/boks10.jpg", "gallery/boks11.jpg", "gallery/boks12.jpg", "gallery/boks13.jpg", "gallery/boks14.jpg", "gallery/boks15.jpg", "gallery/boks16.jpg", "gallery/boks17.jpg", "gallery/boks18.jpeg"],
+        "description2": [
+            ""
+        ]
+    },
+    {
+        "id": "kniv1",
+        "title": "Snittet smørkniv i frisk træ",
+        "subtitle": "Processen i at snitte en smørkniv i frisk træ",
+        "description": [
+            "At snitte en smørkniv i friskt træ for første gang var en udfordrende, men utrolig sjov oplevelse. Jeg sad på altanen derhjemme og snittede løs, mens jeg øvede mig på forskellige teknikker. Processen krævede tålmodighed og præcision, og jeg fandt hurtigt ud af, at det var sværere end forventet at mestre de rette snit og former.",
+            "Træsnitning, eller whittling, er en gammel håndværkstradition, der kræver både færdigheder og kreativitet. En vigtig teori indenfor træsnitning er at forstå træets fibre og hvordan de reagerer på forskellige snit. At snitte med fibrene giver et glat og rent snit, mens snit mod fibrene kan resultere i splinter og ujævnheder. Det er også vigtigt at have skarpe værktøjer, da sløve knive kan gøre arbejdet både sværere og farligere.",
+            "Under min snitning af smørkniven eksperimenterede jeg med forskellige teknikker, såsom at bruge tommelfingeren som støtte for at kontrollere snittene bedre og at variere trykket for at skabe forskellige dybder og former. Selvom det var svært at få det præcist rigtigt, var det en lærerig proces.",
+            "Reflekterende råd til mig selv ville være at have mere tålmodighed og ikke forhaste processen. Det er vigtigt at tage sig tid til at forstå træets egenskaber og at øve sig regelmæssigt for at forbedre teknikken. At arbejde i et roligt og afslappet miljø, som på altanen, hjælper også med at holde fokus og nyde processen. Med mere øvelse vil jeg uden tvivl blive bedre til at snitte og skabe smukke, funktionelle genstande.",
+            "Jeg brændte til sidst i træet for at lave mønstre. Denne teknik skaber dybde og tekstur, hvilket kan give unikke og detaljerede designs."
+        ],
+        "gallery": ["gallery/kniv1.jpg", "gallery/kniv2.jpg", "gallery/kniv3.jpg", "gallery/kniv4.jpg", "gallery/kniv5.jpg"],
+        "description2": [
+            ""
+        ]
+    },
+    {
+        "id": "pind",
+        "title": "Snittet nøstepind i frisk træ",
+        "subtitle": "Processen i at snitte en nøstepind i frisk træ",
+        "description": [
+            "Jeg begyndte at snitte en nøstepind i friskt træ i forbindelse med den første opgave i friskt træ, men det blev hurtigt klart, at det ville blive en udfordrende proces. At finde det rette stykke træ uden knaster krævede tålmodighed. Under snittearbejdet stødte jeg på flere vanskeligheder, som at undgå at træet flækkede og at få den lille pind til at sidde fast uden at knække. Knasten i pinden krævede min fulde opmærksomhed, og der var øjeblikke af frustration, hvor jeg måtte holde en pause. Men netop disse udfordringer gjorde oplevelsen lærerig. Jeg lærte at værdsætte håndværkets langsommelige tempo og de små sejre undervejs. At se den færdige nøstepind tage form, velafbalanceret og klar til brug, gav mig en følelse af tilfredshed. "
+        ],
+        "gallery": ["gallery/pind.jpg"],
+        "description2": [
+            ""
+        ]
     },
     {
         "id": "genstandsanalyse",
@@ -31,7 +154,7 @@
             ""
         ],
         "iframe": "<iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vTlAVN5FkcZPQbdZaK3kCON6lTojSii-tgS_z1Iong1mVkezdHXxaSDkZlirHG_CZ7T5jTcAvtPPKY3/embed?start=true&loop=false&delayms=3000\" frameborder=\"0\" width=\"960\" height=\"569\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>",
-        "gallery": ["gallery/genstand.jpg", "gallery/genstand.jpg", "gallery/genstand.jpg"],
+        "gallery": ["gallery/genstand.jpg", "gallery/trekant.png", "gallery/hylde.jpg"],
         "description2": [
             "Vi arbejdede med design-trekants modellen med vores genstande(Se billede nedenfor hvor genstandende er placeret). Design-trekanten, bestående af æstetik, kommunikation og funktion, er en fascinerende model, der udfordrer designere til at skabe produkter, der er både smukke, forståelige og brugbare. Denne model understreger vigtigheden af at finde en balance mellem de tre elementer, hvilket ofte kan være en kompleks opgave.",
             "Æstetik handler om det visuelle udtryk og den æstetiske appel, som et design har. Det er det første, brugerne lægger mærke til, og det kan skabe en stærk følelsesmæssig forbindelse. Et æstetisk tiltalende design kan tiltrække og fastholde brugernes opmærksomhed, men det må ikke ske på bekostning af funktionaliteten.",
@@ -43,21 +166,54 @@
     {
         "id": "fortællerpose",
         "title": "Fortællerpose",
-        "subtitle": "Creative design work",
+        "subtitle": "Dokumentation for fortællerpose, studieprodukt",
         "description": [
-            "This project demonstrates creative design using modern tools.",
-            "Focusing on user experience and aesthetics.",
+            "I håndværk og design fik jeg til opgave at lave en fortællerpose, og jeg valgte at skabe en escape room pose med temaet mord mysterie, jeg kaldte den Martha's Mord mysterie. Jeg designede posen med forskellige små poser, der indeholdt spor og ledetråde, som deltagerne skulle finde og løse for at opklare mordet. Hver ledetråd var omhyggeligt udformet for at passe til temaet, og jeg brugte materialer som stof, papir og små rekvisitter af uld, træ og snor for at gøre oplevelsen mere autentisk. Det var en spændende udfordring at kombinere kreativitet og håndværk for at skabe en interaktiv og engagerende fortælling, som kunne fange deltagernes interesse og nysgerrighed.",
+            "Læs mere om selve projektet og detaljerede beskrivelser i powerpointet.",
             "Se hele powerpointet her:",
             ""
         ],
         "iframe": "<iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vQa8MKoBbjGOeOianpAFtulYjuUlRCIEOwmtgoPAMqsjWX5xK7E_cnRncamYh-SoKCq6q3NmyJhW3Dh/embed?start=true&loop=false&delayms=3000\" frameborder=\"0\" width=\"756\" height=\"400\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>",
-        "gallery": ["gallery/moodboard.png", "design2.jpg", "design3.jpg"],
-        "url": "<a href=\"https:\/\/docs.google.com\/document\/d\/e\/2PACX-1vSQi96RCI4HhXNk2tchAfMrdWt28y1w_nr44_j88ZbhPbcyEcMUTaBJ23_uHUQxVj7qWU8E1QJyonRm\/pub\">Google Document</a>",
+        "gallery": ["gallery/moodboard.png", "gallery/pose1.jpg", "gallery/pose2.jpg", "gallery/pose3.jpg", "gallery/pose4.jpg", "gallery/pose5.jpg"],
+        "url": "<a href=\"https:\/\/docs.google.com\/document\/d\/e\/2PACX-1vSQi96RCI4HhXNk2tchAfMrdWt28y1w_nr44_j88ZbhPbcyEcMUTaBJ23_uHUQxVj7qWU8E1QJyonRm\/pub\">Link til dokumenter og billeder designprocesser</a>",
         "iframe2": "<iframe src=\"gallery\/brochure.pdf\" width=\"750\" height=\"950\" style=\"border: none;\"><\/iframe>",
         "description2": [
-            "This project demonstrates creative design using modern tools.",
-            "Focusing on user experience and aesthetics.",
-            "Se hele powerpointet her:",
+            "Her er der andre visuelle dokumentationer af projektet. Som brochure, designprocesser og billeder.",
+            "Se hele mere forneden:",
+            ""
+        ]
+    },
+    {
+        "id": "oktobermonster",
+        "title": "“Filt dit eget Oktober Monster”",
+        "subtitle": "Undervisningsplan og guide til forløbet",
+        "description": [
+            "Vi lavede en undervisningsplan til et forløb om at lave filtmonstrer i studiegruppen, efterfølgende lavede jeg en lille guide til et collage af hvordan man klipper et filtmonster ud til collage som er stadiet inden man begynder at filte sit monster.",
+            "Se undervisningplan her:",
+            ""
+        ],
+        "iframe": "<iframe src=\"https://docs.google.com/document/d/e/2PACX-1vS35LU8igUAGkpMICNMTkse3z081Ggqg7PvBOWHj6_MdIYvIVyLT-dkiyfXgiI5DzSETRK-FrbSYm6f/pub?embedded=true\"></iframe>",
+        "url": "<a href=\"https://docs.google.com/document/d/e/2PACX-1vROxwcXTxFSEUNFEVLvg226u4ok5_EK60Qw0iX83Ofhw0zJI0EpAjMYvEwjNSem_oezTdhKpX_nex87/pub\">Link til guide</a>",
+
+        "description2": [
+            "Se guide her:",
+            ""
+        ]
+    },
+    {
+        "id": "motivation",
+        "title": "Teoretisk og didaktisk refleksion over egne designforløb",
+        "subtitle": "Reflektion og 3 grafer der illustrere design forløb i HD. Delt op i 2 dele.",
+        "description": [
+            "Opgaven lød på at vi skulle lave 3 grafer over motiviation samt mestring af 3 designforløb og proces vi havde været igennem i HD. Jeg valgte snitning af kniv, fortællerpose og filtning. Efterfølgende skulle vi sammen i studiegrupper reflektere over alle vores grafer og sammenligne dem, dernæst skrive en reflekterende tekst over overvejelserne.",
+            "Se mere her:",
+            ""
+        ],
+        "iframe": "<iframe src=\"https://docs.google.com/document/d/e/2PACX-1vQ9IYDMgDRPCK9xb65THzTRk45bj-2YgNHJwjTA10qj06POOTDrmOO1Qpntgv5m7UR-9oTQLgkemyVZ/pub?embedded=true\"></iframe>",
+        "url": "<a href=\"https://docs.google.com/document/d/e/2PACX-1vRkOxaVdsuQju_OEpwK3CVOYncqe2rY8-KRijN-kmywsqIyY9teg0hifJ7-tocRKTItAF1v2rk4S3QT/pub\">Link til del 2 lavet med studiegruppe</a>",
+
+        "description2": [
+            "Se del 2 her:",
             ""
         ]
     }
