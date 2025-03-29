@@ -1,0 +1,675 @@
+body {
+    font-family: "DM Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* LOADING SCREEN */
+
+.loading-screen {
+    position: absolute;
+    top: 6;
+    left: 10;
+    width: 320px;
+    /* Same width as card */
+    height: 610px;
+    /* Same height as card */
+    background-color: #1a36d9;
+    /* Blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    /* Ensure it is on top */
+    transition: opacity 1s ease-in;
+    /* Ease-in transition */
+    border-radius: 10px;
+    /* Same border-radius as card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Same box-shadow as card */
+}
+
+.loading-logo {
+    width: 150px;
+    /* Adjust size as needed */
+}
+
+.loading-screen.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* p STYLE */
+
+p {
+    color: #3f3f41;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.prize {
+    font-size: .8em;
+    margin-top: 115%;
+}
+
+.desinfo {
+    font-size: .8em;
+    text-align: left;
+}
+
+.type {
+    color: #777777;
+}
+
+/* CARD STYLE */
+
+.card {
+    background-color: white;
+    padding: 0 0px 10px 0px;
+    /* Remove padding */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 320px;
+    /* iPhone width */
+    max-width: 100%;
+    position: relative;
+    height: 600px;
+    background-image: url('pic/bg.png');
+    /* Set the background image */
+    background-size: 60%;
+    /* Ensure the image covers the entire card */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Prevent the image from repeating */
+}
+
+.card.dimmed {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* USER STYLE */
+
+.user-info {
+    position: absolute;
+    top: 60px;
+    /* Adjust position as needed */
+    left: 20px;
+    /* Adjust position as needed */
+    text-align: left;
+}
+
+.user-info .name {
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.user-info .type {
+    font-size: 0.9em;
+    margin: 0;
+}
+
+/* REJSE FRA OG TIL STYLE */
+
+.text-container {
+    text-align: left;
+    margin: 0 0 0px 20px;
+    /* 2px margin between text-container and swipe-container */
+}
+
+.route {
+    font-weight: light;
+    font-size: .9em;
+    padding: 0;
+    /* Adjust font size as needed */
+}
+
+.subtext {
+    color: #777777;
+    font-size: 0.8em;
+    /* Adjust font size as needed */
+    margin-top: -5px;
+    /* Adjust margin as needed */
+}
+
+/*SIDE BUTTONS STYLE*/
+
+.round-buttons {
+    position: absolute;
+    bottom: 190px;
+    /* Adjust to position above text-container */
+    right: 10px;
+    /* Adjust to position on the right side */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* Space between buttons */
+}
+
+.round-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.round-button.blue {
+    background-color: #1a36d9;
+}
+
+.round-button.green {
+    background-color: #138f70;
+}
+
+.button-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.popup {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 280px;
+    height: 70%;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+    padding: 20px;
+    z-index: 1002;
+    display: none;
+    overflow-y: auto;
+    /* Enable vertical scrolling */
+    /* Initially hidden */
+}
+
+.popup::-webkit-scrollbar {
+    width: 0px;
+    /* Remove scrollbar space */
+    background: transparent;
+    /* Optional: just to be sure */
+}
+
+.popup {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.popup.active {
+    display: block;
+    /* Show when active */
+    transform: translateY(0);
+}
+
+/*INSIDE POP UP*/
+
+#btn {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #e0e0e0;
+    color: #3f3f41;
+    font-size: 1em;
+    width: 100%;
+    height: 3em;
+}
+
+select {
+    border: none;
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 0.8em;
+}
+
+.line span {
+    flex: 1;
+    text-align: left;
+    margin-right: 10px;
+    /* Add space between the spans and the elements on the right */
+}
+
+.line select,
+.line input {
+    flex: 2;
+    text-align: right;
+    width: 150px;
+    /* Set a fixed width for the dropdown and search field */
+}
+
+.search-field-container {
+    position: relative;
+    width: 170px;
+    /* Set a fixed width for the container */
+}
+
+.search-field {
+    width: calc(100% - 10px);
+    /* Adjust width to fit within the popup */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    position: relative;
+    text-align: left;
+    /* Align text to the left */
+    background-color: #e0e0e0;
+}
+
+input[type="text"]::placeholder {
+    /* Firefox, Chrome, Opera */
+    text-align: left;
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px;
+    top: 55%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    color: #777777;
+}
+
+.travel-plan {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.travel-plan img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+.travel-plan span {
+    display: block;
+}
+
+.travel-plan hr {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 5px 0;
+}
+
+.inline {
+    display: flex;
+    align-items: center;
+}
+
+.inline img {
+    margin-right: 5px;
+    /* Add space between the image and the text */
+}
+
+/* MENU STYLE */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a36d9;
+    padding: 0;
+    /* Remove padding */
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+.burger-menu {
+    font-size: 1.5em;
+    cursor: pointer;
+    padding: 10px 20px;
+    /* Add padding here */
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    /* Add padding here */
+}
+
+.logo {
+    width: 100%;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.notification-bell {
+    font-size: 1.5em;
+    cursor: pointer;
+    padding: 10px 20px;
+    /* Add padding here */
+}
+
+.notification-bell .bell {
+    width: 20px;
+    /* Adjust size as needed */
+    height: 20px;
+    /* Adjust size as needed */
+    transform: rotate(-15deg);
+    /* Rotate the bell to the left */
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    z-index: 1001;
+    padding: 0;
+    /* Remove padding */
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 5s ease-in, opacity 5s ease-in;
+}
+
+.dropdown-menu.active {
+    display: block;
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.dropdown-header {
+    background-color: #1a36d9;
+    padding: 10px;
+    border-radius: 10px 0 0 0;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-header .logo {
+    width: 100px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
+
+.menu-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-items li {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px 10px 10px;
+    color: #3f3f41;
+    font-weight: lighter;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+.menu-items .border1 {
+    border-bottom: 1px solid #ddd;
+}
+
+.menu-items li img.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.menu-items li:last-child {
+    border-bottom: none;
+}
+
+/* Overlay for grey transparent hue */
+
+.overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 320px;
+    /* Same width as card */
+    height: 610px;
+    /* Same height as card */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Grey transparent hue */
+    z-index: 1000;
+    border-radius: 10px;
+    /* Same border-radius as card */
+}
+
+.overlay.active {
+    display: block;
+}
+
+h1 {
+    color: #0070c0;
+}
+
+/* USER STYLE */
+
+.type,
+.station {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* SWIPE BUTTON STYLE */
+
+@keyframes pulse-grey {
+    0% {
+        background-color: #e0e0e0;
+    }
+    50% {
+        background-color: #c8c6c6;
+    }
+    100% {
+        background-color: #e0e0e0;
+    }
+}
+
+@keyframes pulse-green {
+    0% {
+        background-color: rgb(112, 168, 154);
+    }
+    50% {
+        background-color: #3e7c6e;
+    }
+    100% {
+        background-color: #549685;
+    }
+}
+
+.swipe-container {
+    margin: 2px 10px 0 10px;
+    /* 2px margin on left and right */
+    position: relative;
+    width: calc(92% - 4px);
+    /* Adjust width to account for margins */
+    height: 80px;
+    background-color: #e0e0e0;
+    border-radius: 50px;
+    border: 6px solid #e9e4e4;
+    overflow: hidden;
+    animation: pulse-grey 2s infinite;
+}
+
+.swipe-container.green {
+    animation: pulse-green 2s infinite;
+}
+
+.swipe-button {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 70px;
+    height: 70px;
+    background-color: #138f70;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: left 1s ease-in, background-color 1s ease-in;
+    border: 5px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.swipe-button.swiped {
+    left: calc(98% - 74px);
+    /* Adjusted for new size and margins */
+}
+
+.check-in-text {
+    position: absolute;
+    right: -180px;
+    /* Adjust this value to position the text correctly */
+    font-size: 16px;
+    color: rgb(61, 61, 61);
+    font-weight: bold;
+}
+
+.arrow {
+    width: 50px;
+    height: 50px;
+    transition: transform 1s ease-in;
+    /* Smooth rotation */
+}
+
+.arrow.rotated {
+    transform: rotate(180deg);
+    /* Rotate 180 degrees */
+}
+
+#timer {
+    font-size: 1.5em;
+    position: absolute;
+    left: 20px;
+    /* Position to the right */
+    transform: translateY(-50%);
+    top: 50%;
+    color: white;
+}
+
+/*LOCK SCREEN WIDGET*/
+
+.lock-screen-button {
+    position: fixed;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #138f70;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.lock-screen-popup {
+    display: none;
+    position: absolute;
+    /* Change to absolute positioning */
+    bottom: 0;
+    /* Align to the bottom of the card */
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Ensure it covers the entire card */
+    background-image: url('pic/bgscreen.jpeg');
+    /* Set the background image */
+    background-size: 320px 614px;
+    /* Ensure the image covers the entire popup */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Prevent the image from repeating */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    border-radius: 10px;
+    /* Add border-radius to the background image */
+}
+
+.lock-screen-popup.active {
+    display: flex;
+}
+
+.lock-screen-widget {
+    background-color: rgba(36, 36, 36, 0.829);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    position: absolute;
+    bottom: 190px;
+}
+
+.widget-header {
+    background-color: #1a36d9;
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* Add this line */
+}
+
+.widget-logo {
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.widget-body {
+    padding: 20px;
+}
+
+.widget-info {
+    margin: 10px 0;
+    text-align: left;
+    color: white;
+    font-size: 0.5em;
+}
+
+.checkout-swipe-button {
+    background-color: #ffffff;
+    color: #1a36d9;
+    padding: 5px 5px;
+    /* Adjust padding for smaller size */
+    border-radius: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.check-out-text {
+    font-size: .7em;
+}
+
+/*SETTING POP UP STYLE*/

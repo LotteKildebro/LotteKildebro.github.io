@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rejsekort</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="pic/logo1.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id="loading-screen" class="loading-screen">
+        <img src="pic/logo.png" alt="Rejsekort Logo" class="loading-logo">
+    </div>
+
+    <div class="card">
+        <div class="navbar">
+            <div class="burger-menu" id="burgerMenu">
+                &#9776;
+            </div>
+            <div class="title">
+                <img src="pic/logo.png" alt="Logo" class="logo">
+
+            </div>
+            <div class="notification-bell">
+                <img src="pic/bell.png" alt="Bell" class="bell">
+            </div>
+        </div>
+        <div class="dropdown-menu" id="dropdownMenu">
+            <div class="dropdown-header">
+                <img src="pic/logo.png" alt="Logo" class="logo">
+            </div>
+            <ul class="menu-items">
+                <li>
+                    <img src="pic/icon1.png" alt="Icon" class="icon"> Rejsehistorik</li>
+                <li>
+                    <img src="pic/icon2.png" alt="Icon" class="icon"> Rabatter</li>
+                <li>
+                    <img src="pic/icon3.png" alt="Icon" class="icon"> Betaling</li>
+                <li class="border1">
+                    <img src="pic/icon4.png" alt="Icon" class="icon"> Indstillinger
+                </li>
+                <li>
+                    <img src="pic/icon5.png" alt="Icon" class="icon"> Hvordan virker det</li>
+                <li>
+                    <img src="pic/icon6.png" alt="Icon" class="icon"> Hjælp</li>
+                <li class="border1">
+                    <img src="pic/icon7.png" alt="Icon" class="icon"> Kontakt</li>
+                <li>Om rejsekort</li>
+            </ul>
+        </div>
+
+        <div class="user-info">
+            <p class="name">Navn</p>
+            <p class="type">Standard · Voksen</p>
+        </div>
+
+        <div class="text-container">
+            <p class="prize">Beregnet pris:
+                <span class="bold">21 kr,-</span>
+            </p>
+            <p class="route">Fra Nørrebros runddel st. til Enghave st.</p>
+            <p class="subtext">rejsekort</p>
+        </div>
+
+
+
+        <div class="swipe-container">
+            <div id="timer" style="display: none;">0:00</div>
+            <!-- Timer display element -->
+            <div class="swipe-button" id="swipeButton">
+                <img src="pic/arrowR.png" alt="Arrow" class="arrow">
+                <span class="check-in-text">Check in</span>
+            </div>
+        </div>
+        <div class="round-buttons">
+            <div class="round-button green">
+                <img src="pic/icongreen.png" alt="Icon" class="button-icon">
+            </div>
+            <div class="round-button blue">
+                <img src="pic/iconblue.png" alt="Icon" class="button-icon">
+            </div>
+        </div>
+        <div class="popup" id="popup">
+            <h3>Skift destination</h3>
+            <p class="desinfo">Skift din destination for at sikre automatisk check ud og prisregning for rejsen</p>
+
+            <div class="line">
+                <span>Sidst besøgt</span>
+                <select>
+                    <option>Enghave plads st.</option>
+                    <option>København H.</option>
+                    <option>Nørrebro st.</option>
+                    <option>Nørreport st.</option>
+                </select>
+            </div>
+            <hr>
+            <div class="line">
+                <span>Søg destination</span>
+                <div class="search-field-container">
+                    <input type="text" placeholder="Eksempel st." class="search-field" style="text-align: left;">
+                    <i class="fa fa-search search-icon"></i>
+                </div>
+            </div>
+            <hr>
+            <div class="line">
+                <span>Rejseplan</span>
+                <div class="travel-plan">
+                    <div class="inline">
+                        <img src="pic/metro.png" alt="m3 logo" class="m3-logo">
+
+                        <span>
+                            <i>Mod</i> København H. </span>
+                    </div>
+                    <hr>
+                    <span>
+                        <i>5 stop</i> Enghave plads st.</span>
+                </div>
+            </div>
+            <hr>
+            <button id="btn">Vælg</button>
+            <img src="pic/rejse.png" alt="m3 logo" class="m3-logo" width="100%">
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+    <button id="lockScreenButton" class="lock-screen-button">Låseskærm</button>
+
+    <div class="lock-screen-popup" id="lockScreenPopup">
+        <div class="lock-screen-widget">
+            <div class="widget-header">
+                <img src="pic/logo.png" alt="Rejsekort Logo" class="widget-logo">
+                <div class="checkout-swipe-button" id="checkOutButton">
+                    <span class="check-out-text">Check ud</span>
+                </div>
+            </div>
+            <div class="widget-body">
+                <p class="widget-info">Igangværende rejse</p>
+                <p class="widget-info">Tid:
+                    <span id="travelTime">10 min</span>
+                </p>
+                <p class="widget-info">Pris:
+                    <span id="travelPrice">21 kr,-</span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
