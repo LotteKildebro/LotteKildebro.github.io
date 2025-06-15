@@ -201,6 +201,23 @@
         ]
     },
     {
+        "id": "insekthotel",
+        "title": "“Insekthoteller i havområdet”",
+        "subtitle": "Undervisningsplan udarbejdet med studiegruppe.",
+        "description": [
+            "Vi lavede en undervisningsplan til et forløb om at lave insekthoteller i havområdet. Vi holdte et oplæg og præsenterede forløbet på holdet.",
+            "Se undervisningplan her:",
+            ""
+        ],
+        "iframe": "<iframe src=\"https://docs.google.com/document/d/e/2PACX-1vQbe1cda7wU4Jzo1HA2rEwYTfYEdqzPfjiEo1q4b6F7468UI9fkMYLxVnzpRI_qhPR5ZM1jQdEbI3vx/pub?embedded=true\"></iframe>",
+        "url": "<a href=\"https://docs.google.com/presentation/d/e/2PACX-1vTnUPxKYffk2Mlv6G_GtvB5DBWpVf89NpBkAqEvififUArEKZa44FM-C6LrWRHwNN98sOZaLyX49ku-/pub?start=true&loop=true&delayms=3000&slide=id.g204f43f2c6a_1_0\">Link til PowerPoint</a>",
+
+        "description2": [
+            "Se præsentationen her:",
+            ""
+        ]
+    },
+    {
         "id": "motivation",
         "title": "Teoretisk og didaktisk refleksion over egne designforløb",
         "subtitle": "Reflektion og 3 grafer der illustrere design forløb i HD. Delt op i 2 dele.",
@@ -214,6 +231,22 @@
 
         "description2": [
             "Se del 2 her:",
+            ""
+        ]
+    },
+    {
+        "id": "designmuseum",
+        "title": "Udflugt til Designmuseum",
+        "subtitle": "Holdet tog en tur på Designmuseum og fulgte et forløb om at udvikle stole som omhandlende brainstorm, skitser, prototyper og reflektioner.",
+        "description": [
+            "Designmuseum Danmark, beliggende i hjertet af København, er et af Nordens førende museer for design og kunsthåndværk. Museet blev grundlagt i 1890 af Industriforeningen i København og Ny Carlsberg Museumslegat og åbnede for offentligheden i 1895. I 1926 flyttede museet ind i det tidligere Kongelige Frederiks Hospital, en smuk rokokobygning opført i 1750’erne, som blev ombygget til museumsformål af arkitekterne Kaare Klint og Ivar Bentsen.",
+            "Museet har siden sin begyndelse haft som mål at formidle kvalitetsdesign og inspirere både fagfolk og forbrugere. Det rummer en omfattende samling af dansk og internationalt design, herunder møbler, tekstiler, keramik og grafisk design. Designmuseum Danmark fungerer også som forskningscenter og vidensbank for designhistorie og -udvikling.",
+            "Et besøg på Designmuseum Danmark i forbindelse med håndværk og design giver eleverne mulighed for at opleve design i virkeligheden og få inspiration til deres egne projekter. De ser, hvordan form, funktion og materialer spiller sammen, og hvordan design påvirker vores hverdag. Museet skaber en ramme, hvor eleverne kan reflektere over deres egne idéer og lære af både historiske og moderne eksempler.",
+            ""
+        ],
+        "gallery": ["gallery/designmuseum1.jpeg", "gallery/designmuseum2.jpeg", "gallery/designmuseum3.jpeg", "gallery/designmuseum4.jpeg", "gallery/designmuseum5.jpeg", "gallery/designmuseum6.jpeg", "gallery/designmuseum7.jpeg", "gallery/designmuseum8.jpeg", "gallery/designmuseum9.jpeg", "gallery/designmuseum10.jpeg"],
+        "description2": [
+            "Se galleri her:",
             ""
         ]
     }
