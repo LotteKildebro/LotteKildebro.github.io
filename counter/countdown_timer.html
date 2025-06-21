@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown Timer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-image: url(https://w0.peakpx.com/wallpaper/398/155/HD-wallpaper-sci-fi-technology-computer-rainmeter.jpg);
+            background-size: cover;
+            color: white;
+        }
+
+        .countdownbg {
+            background-color: rgba(0, 0, 0, 0.6);
+            max-width: 900px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 15px;
+        }
+
+        #timer {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .dropdowns {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .custom-dropdown {
+            position: relative;
+            width: 120px;
+            margin-bottom: 30px;
+        }
+
+        .selected {
+            background-color: rgb(116, 113, 113);
+            padding: 5px;
+            border: 1px solid #555;
+            cursor: pointer;
+            height: 60px;
+        }
+
+        .selected img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .options {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #333;
+            border: 1px solid #555;
+            width: 100%;
+            z-index: 10;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+
+        .option {
+            padding: 5px;
+            cursor: pointer;
+        }
+
+        .option img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .option:hover {
+            background-color: #444;
+        }
+
+        .preview img {
+            width: 100px;
+            margin-top: 10px;
+            border: 2px solid white;
+            border-radius: 5px;
+        }
+
+        #explosion {
+            font-size: 50px;
+            display: none;
+            margin-bottom: 20px;
+        }
+
+        #message {
+            margin-top: 20px;
+            font-size: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+
+        .show {
+            display: block;
+        }
+
+        /* Modal Base */
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 999;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+
+        /* Modal Content */
+
+        .modal-content {
+            background-color: #fff;
+            margin: 10% auto;
+            padding: 30px;
+            border-radius: 12px;
+            width: 90%;
+            max-width: 400px;
+            text-align: center;
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 0.4s;
+        }
+
+        .modal-image {
+            width: 100px;
+            margin-bottom: 20px;
+        }
+
+        .close-button {
+            position: absolute;
+            right: 20px;
+            top: 10px;
+            font-size: 28px;
+            cursor: pointer;
+        }
+
+        /* Animation */
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        #successModal {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="countdownbg">
+        <h1>Countdown Timer</h1>
+        <div id="timer">20:00</div>
+        <div id="explosion">💥</div>
+
+        <audio id="bgMusic" loop>
+            <source src="bgmusic.mp3" type="audio/mpeg" />
+        </audio>
+        <audio id="successSound">
+            <source src="success.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="errorSound">
+            <source src="error.mp3" type="audio/mpeg">
+        </audio>
+
+
+        <div class="dropdowns">
+            <!-- Robot -->
+            <div class="custom-dropdown" id="robotDropdown">
+                <div class="selected" onclick="toggleDropdown('robot')">
+                    <img src="billeder/robot.png" id="robot-img">
+                </div>
+                <div class="options" id="robot-options">
+                    <div class="option" data-value="1" data-img="billeder/robot1.png">
+                        <img src="billeder/robot1.png">
+                    </div>
+                    <div class="option" data-value="2" data-img="billeder/robot2.png">
+                        <img src="billeder/robot2.png">
+                    </div>
+                    <div class="option" data-value="3" data-img="billeder/robot3.png">
+                        <img src="billeder/robot3.png">
+                    </div>
+                    <div class="option" data-value="4" data-img="billeder/robot4.png">
+                        <img src="billeder/robot4.png">
+                    </div>
+                    <div class="option" data-value="5" data-img="billeder/robot5.png">
+                        <img src="billeder/robot5.png">
+                    </div>
+                    <div class="option" data-value="6" data-img="billeder/robot6.png">
+                        <img src="billeder/robot6.png">
+                    </div>
+                    <div class="option" data-value="7" data-img="billeder/robot7.png">
+                        <img src="billeder/robot7.png">
+                    </div>
+                    <div class="option" data-value="8" data-img="billeder/robot8.png">
+                        <img src="billeder/robot8.png">
+                    </div>
+                    <div class="option" data-value="9" data-img="billeder/robot9.png">
+                        <img src="billeder/robot9.png">
+                    </div>
+                    <div class="option" data-value="10" data-img="billeder/robot10.png">
+                        <img src="billeder/robot10.png">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Wire -->
+
+            <div class="custom-dropdown" id="wireDropdown">
+                <div class="selected" onclick="toggleDropdown('wire')">
+                    <img src="billeder/wire.png" id="wire-img">
+                </div>
+                <div class="options" id="wire-options">
+                    <div class="option" data-value="1" data-img="billeder/wire1.png">
+                        <img src="billeder/wire1.png">
+                    </div>
+                    <div class="option" data-value="2" data-img="billeder/wire2.png">
+                        <img src="billeder/wire2.png">
+                    </div>
+                    <div class="option" data-value="3" data-img="billeder/wire3.png">
+                        <img src="billeder/wire3.png">
+                    </div>
+                    <div class="option" data-value="4" data-img="billeder/wire4.png">
+                        <img src="billeder/wire4.png">
+                    </div>
+                    <div class="option" data-value="5" data-img="billeder/wire5.png">
+                        <img src="billeder/wire5.png">
+                    </div>
+                    <div class="option" data-value="6" data-img="billeder/wire6.png">
+                        <img src="billeder/wire6.png">
+                    </div>
+                    <div class="option" data-value="7" data-img="billeder/wire7.png">
+                        <img src="billeder/wire7.png">
+                    </div>
+                    <div class="option" data-value="8" data-img="billeder/wire8.png">
+                        <img src="billeder/wire8.png">
+                    </div>
+                    <div class="option" data-value="9" data-img="billeder/wire9.png">
+                        <img src="billeder/wire9.png">
+                    </div>
+                    <div class="option" data-value="10" data-img="billeder/wire10.png">
+                        <img src="billeder/wire10.png">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cipher -->
+            <div class="custom-dropdown" id="cipherDropdown">
+                <div class="selected" onclick="toggleDropdown('cipher')">
+                    <img src="billeder/cipher.png" id="cipher-img">
+                </div>
+                <div class="options" id="cipher-options">
+                    <div class="option" data-value="1" data-img="billeder/cipher1.png">
+                        <img src="billeder/cipher1.png">
+                    </div>
+                    <div class="option" data-value="2" data-img="billeder/cipher2.png">
+                        <img src="billeder/cipher2.png">
+                    </div>
+                    <div class="option" data-value="3" data-img="billeder/cipher3.png">
+                        <img src="billeder/cipher3.png">
+                    </div>
+                    <div class="option" data-value="4" data-img="billeder/cipher4.png">
+                        <img src="billeder/cipher4.png">
+                    </div>
+                    <div class="option" data-value="5" data-img="billeder/cipher5.png">
+                        <img src="billeder/cipher5.png">
+                    </div>
+                    <div class="option" data-value="6" data-img="billeder/cipher6.png">
+                        <img src="billeder/cipher6.png">
+                    </div>
+                    <div class="option" data-value="7" data-img="billeder/cipher7.png">
+                        <img src="billeder/cipher7.png">
+                    </div>
+                    <div class="option" data-value="8" data-img="billeder/cipher8.png">
+                        <img src="billeder/cipher8.png">
+                    </div>
+                    <div class="option" data-value="9" data-img="billeder/cipher9.png">
+                        <img src="billeder/cipher9.png">
+                    </div>
+                    <div class="option" data-value="10" data-img="billeder/cipher10.png">
+                        <img src="billeder/cipher10.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button onclick="checkCodes()">Send nødsignal</button>
+        <div id="message"></div>
+    </div>
+
+    <!-- Success Modal -->
+    <div id="successModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal()">&times;</span>
+            <img src="billeder/signal.png" alt="Signal Icon" class="modal-image">
+            <h2>Nødsignalet er sendt!</h2>
+            <p>Alle systemer er aktiveret – godt arbejde!</p>
+        </div>
+    </div>
+
+    <script>
+        let time = 36 * 60;
+        let timerInterval = setInterval(updateTimer, 1000);
+        const bgMusic = document.getElementById('bgMusic');
+
+        function updateTimer() {
+            let minutes = Math.floor(time / 60);
+            let seconds = time % 60;
+            document.getElementById('timer').textContent = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+            time--;
+            if (time < 0) {
+                clearInterval(timerInterval);
+                document.body.style.backgroundColor = 'red';
+                document.getElementById('explosion').style.display = 'block';
+            }
+        }
+
+        function toggleDropdown(id) {
+            document.querySelectorAll('.options').forEach(opt => opt.classList.remove('show'));
+            document.getElementById(id + '-options').classList.toggle('show');
+        }
+
+        document.addEventListener('click', function (e) {
+            if (!e.target.closest('.custom-dropdown')) {
+                document.querySelectorAll('.options').forEach(opt => opt.classList.remove('show'));
+            } else {
+                bgMusic.play().catch(() => {}); // start music on first interaction
+            }
+        });
+
+        ['robot', 'wire', 'cipher'].forEach(type => {
+            document.querySelectorAll('#' + type + '-options .option').forEach(option => {
+                option.addEventListener('click', function () {
+                    const value = this.getAttribute('data-value');
+                    const img = this.getAttribute('data-img');
+                    document.getElementById(type + '-img').src = img;
+                    document.getElementById(type + '-options').classList.remove('show');
+                    document.getElementById(type + 'Dropdown').setAttribute('data-selected',
+                        value);
+                });
+            });
+        });
+
+        function checkCodes() {
+            const robot = document.getElementById('robotDropdown').getAttribute('data-selected');
+            const wire = document.getElementById('wireDropdown').getAttribute('data-selected');
+            const cipher = document.getElementById('cipherDropdown').getAttribute('data-selected');
+
+            const successSound = document.getElementById('successSound');
+            const errorSound = document.getElementById('errorSound');
+
+            if (robot === '8' && wire === '7' && cipher === '10') {
+                clearInterval(timerInterval);
+                document.getElementById('message').textContent = '✅ Koderne er korrekte – Nødsignalet er sendt!';
+                successSound.play();
+                showModal();
+            } else {
+                document.getElementById('message').textContent = '❌ En eller flere koder er forkerte. Prøv igen!';
+                errorSound.play();
+            }
+        }
+
+        function showModal() {
+            const modal = document.getElementById('successModal');
+            modal.style.display = 'block';
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('successModal');
+            modal.style.display = 'none';
+        }
+        window.onclick = function (event) {
+            const modal = document.getElementById('successModal');
+            if (event.target == modal) {
+                modal.style.display = 'none';
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>
