@@ -249,5 +249,50 @@
             "Se galleri her:",
             ""
         ]
+    },
+    {
+        "id": "Filtpumkin",
+        "title": "Filt græskar med 7. klasse",
+        "subtitle": "I praktik på en skole ved Amager, arbejdede eleverne med filtgræskar i anledningen af Halloween.",
+        "description": [
+            "I praktik stod jeg for en undervisningsgang hvor eleverne skulle nålefilte græskar i anledningen af Halloween, her havde jeg lavet en turtorial i en powerpoint som visuel støtte.",
+            "Samtidig med at jeg demonstrede processen fysisk med de materialer som eleverne skulle afprøve. Flere af eleverne havde aldrig nålefiltet før, så derfor var denne gennemgang meget brugbar.",
+            "En lille designudfordring var, at der ikke var orange uld tilgængeligt så eleverne skulle tænke ud af boksen."
+        ],
+        "gallery": ["gallery/pumkin0.jpeg", "gallery/pumkin1.jpeg", "gallery/pumkin2.jpeg", "gallery/pumkin3.jpeg", "gallery/pumkin4.jpeg", "gallery/pumkin5.jpeg", "gallery/pumkin6.jpeg"],
+        "description2": [
+            "Se galleri her:",
+            ""
+        ]
+    },
+    {
+        "id": "maskinsikkerhed",
+        "title": "Maskinsikkerhed",
+        "subtitle": "General infomation om maskinsikkerhed og prøven i maskinsikkerhed",
+        "description": [
+            "I praktik stod jeg for en undervisningsgang hvor eleverne skulle nålefilte græskar i anledningen af Halloween, her havde jeg lavet en turtorial i en powerpoint som visuel støtte.",
+            "Samtidig med at jeg demonstrede processen fysisk med de materialer som eleverne skulle afprøve. Flere af eleverne havde aldrig nålefiltet før, så derfor var denne gennemgang meget brugbar.",
+            "En lille designudfordring var, at der ikke var orange uld tilgængeligt så eleverne skulle tænke ud af boksen."
+        ],
+        "gallery": ["gallery/pumkin0.jpeg", "gallery/pumkin1.jpeg", "gallery/pumkin2.jpeg", "gallery/pumkin3.jpeg", "gallery/pumkin4.jpeg", "gallery/pumkin5.jpeg", "gallery/pumkin6.jpeg", "gallery/designmuseum7.jpeg", "gallery/designmuseum8.jpeg", "gallery/designmuseum9.jpeg", "gallery/designmuseum10.jpeg"],
+        "description2": [
+            "Se galleri her:",
+            ""
+        ]
+    },
+    {
+        "id": "Tekstiktryk",
+        "title": "Tekstiltryk og frotage",
+        "subtitle": "General infomation om maskinsikkerhed og prøven i maskinsikkerhed",
+        "description": [
+            "I praktik stod jeg for en undervisningsgang hvor eleverne skulle nålefilte græskar i anledningen af Halloween, her havde jeg lavet en turtorial i en powerpoint som visuel støtte.",
+            "Samtidig med at jeg demonstrede processen fysisk med de materialer som eleverne skulle afprøve. Flere af eleverne havde aldrig nålefiltet før, så derfor var denne gennemgang meget brugbar.",
+            "En lille designudfordring var, at der ikke var orange uld tilgængeligt så eleverne skulle tænke ud af boksen."
+        ],
+        "gallery": ["gallery/pumkin0.jpeg", "gallery/pumkin1.jpeg", "gallery/pumkin2.jpeg", "gallery/pumkin3.jpeg", "gallery/pumkin4.jpeg", "gallery/pumkin5.jpeg", "gallery/pumkin6.jpeg", "gallery/designmuseum7.jpeg", "gallery/designmuseum8.jpeg", "gallery/designmuseum9.jpeg", "gallery/designmuseum10.jpeg"],
+        "description2": [
+            "Se galleri her:",
+            ""
+        ]
     }
 ]
