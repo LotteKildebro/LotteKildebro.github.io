@@ -263,6 +263,30 @@ a.portfolio-item {
     /* Visible on hover */
 }
 
+.about {
+    padding: 60px 10%;
+}
+
+.about-container {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.about-image img {
+    width: 300px;
+    border-radius: 8px;
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+.about-text h2 {
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 16px;
+}
+
 /* Desktop and Medium Screens (above 768px and below 1000px) */
 
 @media (max-width: 1024px) {
