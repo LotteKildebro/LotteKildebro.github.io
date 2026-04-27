@@ -268,18 +268,278 @@
     {
         "id": "maskinsikkerhed",
         "title": "Maskinsikkerhed",
-        "subtitle": "General infomation om maskinsikkerhed og prøven i maskinsikkerhed",
+        "subtitle": "Generel information om maskinsikkerhed i håndværk og design",
         "description": [
-            "I praktik stod jeg for en undervisningsgang hvor eleverne skulle nålefilte græskar i anledningen af Halloween, her havde jeg lavet en turtorial i en powerpoint som visuel støtte.",
-            "Samtidig med at jeg demonstrede processen fysisk med de materialer som eleverne skulle afprøve. Flere af eleverne havde aldrig nålefiltet før, så derfor var denne gennemgang meget brugbar.",
-            "En lille designudfordring var, at der ikke var orange uld tilgængeligt så eleverne skulle tænke ud af boksen."
+            "Maskinsikkerhed er et centralt fokus i undervisningen i håndværk og design, da eleverne arbejder med værktøj og maskiner, som kan indebære potentielle risici.",
+            "I min undervisning var det vigtigt at introducere klare sikkerhedsprocedurer og gennemgå korrekt brug af materialer og redskaber, så eleverne kunne arbejde trygt og ansvarligt.",
+            "Maskinsikkerhed blev koblet til design- og fremstillingsprocessen, således at sikker adfærd blev en naturlig del af elevernes arbejdsrutiner og ikke blot et indledende regelsæt.",
+            "Gennem tydelig instruktion, visuel støtte og løbende italesættelse af sikkerhed blev elevernes opmærksomhed rettet mod både egen og andres sikkerhed i værkstedet.",
+            "Arbejdet med maskinsikkerhed bidrog samtidig til at udvikle elevernes dømmekraft og handlekompetence i praktiske og håndværksmæssige processer."
         ],
-        "gallery": ["gallery/pumkin0.jpeg", "gallery/pumkin1.jpeg", "gallery/pumkin2.jpeg", "gallery/pumkin3.jpeg", "gallery/pumkin4.jpeg", "gallery/pumkin5.jpeg", "gallery/pumkin6.jpeg", "gallery/designmuseum7.jpeg", "gallery/designmuseum8.jpeg", "gallery/designmuseum9.jpeg", "gallery/designmuseum10.jpeg"],
+        "gallery": [
+            "gallery/sikkerhed.jpeg",
+            "gallery/sikkerhed1.jpeg",
+            "gallery/sikkerhed2.jpeg",
+            "gallery/sikkerhed3.jpeg",
+            "gallery/sikkerhed4.jpeg",
+            "gallery/sikkerhed5.jpeg",
+            "gallery/sikkerhed6.jpeg",
+            "gallery/sikkerhed7.jpeg",
+            "gallery/sikkerhed8.jpeg"
+        ],
         "description2": [
             "Se galleri her:",
             ""
         ]
     },
+    {
+        "id": "patchwork",
+        "title": "Patchwork",
+        "subtitle": "Patchwork – design og fremstilling af pude",
+        "description": [
+            "I dette forløb arbejdede jeg med patchwork som teknisk og æstetisk greb i fremstillingen af en pude.",
+            "Jeg tog udgangspunkt i egne designovervejelser omkring farver, mønstre og komposition, hvor sammensætningen af stofstykker havde stor betydning for det visuelle udtryk.",
+            "Processen bestod af planlægning, udskæring af stof og sammensyning af patchworkfelter, hvor præcision og nøjagtighed var centrale for et tilfredsstillende resultat.",
+            "Undervejs havde jeg fokus på sammenhængen mellem designvalg og håndværksmæssige teknikker, særligt i forhold til stoffets egenskaber og sytekniske løsninger.",
+            "Forløbet styrkede min forståelse for tekstilt design og gav mig erfaring med at arbejde systematisk fra idé til færdigt produkt."
+        ],
+        "gallery": [
+            "gallery/patchwork.jpeg",
+            "gallery/patchwork1.jpeg",
+            "gallery/patchwork2.jpeg",
+            "gallery/patchwork3.jpeg"
+        ],
+        "description2": [
+            "Se galleri her:",
+            ""
+        ]
+    },
+    {
+        "id": "skammel",
+        "title": "Skammel",
+        "subtitle": "Design- og fremstillingsproces fra idé til færdigt produkt",
+        "description": [
+            "I dette projekt designede og fremstillede jeg en skammel med udgangspunkt i en tydelig designidé og et personligt æstetisk udtryk.",
+            "Processen begyndte med skitser, hvor jeg afprøvede forskellige former, proportioner og detaljer, herunder ideen om at integrere et hjerte som et gennemgående visuelt element.",
+            "Herefter udviklede jeg en 3D-model, som gjorde det muligt at undersøge konstruktion, stabilitet og dimensioner, inden jeg gik videre til den fysiske fremstilling.",
+            "Som led i den undersøgende designproces fremstillede jeg en papprototype, der gav indsigt i form, samlinger og funktion, og som dannede grundlag for justeringer før den endelige udførelse.",
+            "Den færdige skammel blev udført i et bevidst farvevalg, hvor den pink farve og hjertet understøtter det legende og personlige designudtryk, samtidig med at funktion og stabilitet er bevaret."
+        ],
+        "gallery": [
+            "gallery/skammel0.jpeg",
+            "gallery/skammel.jpeg",
+            "gallery/skammel1.jpeg",
+            "gallery/skammel2.jpeg",
+            "gallery/skammel3.jpeg",
+            "gallery/skammel4.jpeg",
+            "gallery/skammel5.jpeg",
+            "gallery/skammel6.jpeg",
+            "gallery/skammel7.jpeg",
+            "gallery/skammel8.jpeg",
+            "gallery/skammel9.jpeg",
+            "gallery/skammel10.jpeg",
+            "gallery/skammel11.jpeg",
+            "gallery/skammel12.jpeg",
+            "gallery/skammel13.jpeg"
+
+        ],
+        "description2": [
+            "Se galleri her:",
+            ""
+        ]
+    },
+    {
+        "id": "yarnbombing",
+        "title": "Yarnbombing",
+        "subtitle": "Håndværk og design – tekstilt forløb i uderummet",
+        "description": [
+            "Dette yarnbombing-forløb blev gennemført i håndværk og design i 8. klasse på en skole på Amager, hvor der ikke var adgang til et faglokale.",
+            "På grund af de fysiske rammer valgte jeg at flytte undervisningen ud i uderummet og tage udgangspunkt i tekstile teknikker, der kunne praktiseres uden specialudstyr.",
+            "Jeg planlagde forløbet, så eleverne arbejdede med pompomer, fingerstrik, strik og vikling som forskellige indgange til tekstile udtryk og materialeforståelse.",
+            "Yarnbombing blev anvendt som et fælles, stedsspecifikt projekt, hvor de tekstile elementer blev brugt til at forandre og udsmykke omgivelserne midlertidigt.",
+            "Forløbet gav mig erfaring med at tilpasse håndværk og design-undervisning til begrænsede rammer og viste, hvordan uderummet kan fungere som et alternativt værkstedsrum."
+        ],
+        "gallery": [
+
+            "gallery/yarn.jpeg",
+            "gallery/yarn1.jpeg",
+            "gallery/yarn2.jpeg",
+            "gallery/yarn3.jpeg",
+            "gallery/yarn4.jpeg",
+            "gallery/yarn5.jpeg",
+            "gallery/yarn6.jpeg",
+            "gallery/yarn7.jpeg",
+            "gallery/yarn8.jpeg",
+            "gallery/yarn9.jpeg"
+
+        ],
+        "description2": [
+            "Se galleri her:",
+            ""
+        ]
+    },
+    {
+        "id": "taske",
+        "title": "Taske",
+        "subtitle": "Designopgave – gave til penneven",
+        "description": [
+            "Denne designopgave tog udgangspunkt i en opgave stillet af en medstuderende, hvor jeg skulle designe en gave til min penneven som en øvelse i forhold til prøven i håndværk og design.",
+            "Opgaven var tilrettelagt, så vi skulle gennemgå samme designproces, som eleverne forventes at arbejde med, fra idéudvikling til færdigt produkt.",
+            "Jeg valgte at designe og fremstille en taske med udgangspunkt i min pennevens interesse for dans og behovet for at kunne transportere dansesko på en praktisk måde.",
+            "Designet havde fokus på funktionalitet, hvor tasken skulle være let og overskuelig, så danseskoene kunne medbringes uden brug af en stor og upraktisk taske.",
+            "Processen gav mig erfaring med at omsætte brugerbehov til konkrete designvalg og med at arbejde målrettet med sammenhængen mellem form, funktion og anvendelse."
+        ],
+        "gallery": [
+            "gallery/taske.jpeg",
+            "gallery/taske1.jpeg",
+            "gallery/taske2.jpeg",
+            "gallery/taske3.jpeg",
+            "gallery/taske4.jpeg",
+            "gallery/taske5.jpeg",
+            "gallery/taske6.jpeg",
+            "gallery/taske7.jpeg",
+            "gallery/taske8.jpeg"
+        ],
+        "description2": [
+            "Se galleri her:",
+            ""
+        ]
+    },
+    {
+        "id": "prototyper",
+        "title": "Prototyper med 8. klasse",
+        "subtitle": "Wicked problems – design og prototyping",
+        "description": [
+            "Dette forløb tog udgangspunkt i wicked problems i 8. klasse, hvor fokus var på problemløsning gennem design og prototyper.",
+            "Eleverne arbejdede med en fiktiv case, hvor problemstillingen lød: \"Lena synes disse ting er kedelige: at vaske tøj, lave lektier og lave mad\". Opgaven var at finde en designløsning til én af disse udfordringer.",
+            "Jeg planlagde forløbet med vægt på idéudvikling og hurtig prototyping, hvor eleverne primært arbejdede med pap og andre materialer, der var nemme at skaffe og bearbejde.",
+            "Formålet var ikke at skabe færdige produkter, men at understøtte elevernes evne til at afprøve idéer, tænke kreativt og omsætte tanker til konkrete prototyper.",
+            "Forløbet resulterede i forskellige løsningsforslag, blandt andet en lektierobot og en tøjfolder, der spillede musik, hvilket tydeligt viste, hvordan eleverne arbejdede undersøgende og innovativt med komplekse problemstillinger."
+        ],
+        "gallery": [
+            "gallery/prototype.jpeg",
+            "gallery/prototype1.jpeg",
+            "gallery/prototype2.jpeg",
+            "gallery/prototype3.jpeg"
+        ],
+        "description2": [
+            "Se galleri her:",
+            ""
+        ]
+    },
+    {
+        "id": "metall",
+        "title": "Produkter i metal",
+        "subtitle": "Formgivning og bearbejdning i metal",
+        "description": [
+            "I dette forløb arbejdede jeg med fremstilling af mindre produkter i metal med fokus på formgivning, bearbejdning og æstetisk udtryk.",
+            "Det ene produkt var en broche udformet som en blomst, hvor metallet blev koldforarbejdet ved bankning for at skabe struktur og form i overfladen.",
+            "Brochen blev samlet ved hjælp af nitter, som både har en funktionel betydning ved at fastholde delene og samtidig bidrager til det visuelle udtryk.",
+            "Det andet produkt var en metalplade med et insektmotiv, hvor motivet blev overført til metallet gennem prægning, så der opstod et relief i overfladen.",
+            "Arbejdet med metal gav mig erfaring med materialets egenskaber og med, hvordan tekniske fremstillingsmetoder og designvalg spiller sammen i det færdige produkt."
+        ],
+        "gallery": [
+            "gallery/metall.jpeg",
+            "gallery/metall1.jpeg",
+            "gallery/metall2.jpeg",
+            "gallery/metall3.jpeg",
+            "gallery/metall4.jpeg",
+            "gallery/metall5.jpeg",
+            "gallery/metall6.jpeg",
+            "gallery/metall7.jpeg",
+            "gallery/metall8.jpeg",
+            "gallery/metall9.jpeg",
+            "gallery/metall11.jpeg",
+            "gallery/metall12.jpeg"
+
+        ],
+        "description2": [
+            "Se galleri her:",
+            ""
+        ]
+    },
+    {
+        "id": "metaltin",
+        "title": "Metal – tin",
+        "subtitle": "Støbning og formgivning i tin",
+        "description": [
+            "I dette forløb arbejdede jeg med tin som materiale med fokus på støbning og formgivning.",
+            "Processen begyndte med smeltning af tin, som er et lavtsmeltende metal velegnet til arbejde i håndværk og design.",
+            "Jeg arbejdede med sandstøbning, hvor en form blev aftryk i fugtigt sand, hvorefter det smeltede tin blev hældt i formen.",
+            "Derudover anvendte jeg blomsterskum (oasis) som alternativ støbeform, hvor formen nemt kan udskæres og bruges til eksperimenterende støbninger.",
+            "Forløbet gav mig indsigt i støbeteknikker, materialets egenskaber og sammenhængen mellem form, proces og det færdige udtryk."
+        ],
+        "gallery": [
+            "gallery/metal.jpeg",
+            "gallery/metal1.jpeg",
+            "gallery/metal2.jpeg",
+            "gallery/metal3.jpeg",
+            "gallery/metal4.jpeg",
+            "gallery/metal5.jpeg",
+            "gallery/metal6.jpeg",
+            "gallery/metal7.jpeg"
+        ],
+        "description2": [
+            "Se galleri her:",
+            ""
+        ]
+    },
+    {
+        "id": "beadcore",
+        "title": "Studieprodukt – Beadcore",
+        "subtitle": "Selvstændigt designprojekt og undervisningsforløb",
+        "description": [
+            "Dette studieprodukt var et selvstændigt designprojekt, hvor jeg undersøgte beadcore-kulturen, som er særligt populær blandt elever på mellemtrinnet.",
+            "Projektet tog udgangspunkt i en analyse af elevernes æstetiske præferencer og deres interesse for perler, personlige udtryk og små dekorative objekter.",
+            "På baggrund af undersøgelsen designede og fremstillede jeg en række genbrugte figurer ved brug af dåseringe, perler og wire, hvor materialerne blev kombineret til unikke og karakterfulde udtryk.",
+            "Designprocessen havde fokus på bæredygtighed og genbrug, hvor hverdagsmaterialer blev gentænkt og anvendt i en ny kontekst.",
+            "Som en del af studieproduktet udviklede vi et undervisningsforløb, der tager afsæt i beadcore-kulturen og giver eleverne mulighed for at arbejde med design, materialeforståelse og personligt udtryk gennem kreative processer."
+        ],
+        "gallery": [
+            "gallery/bead.jpeg",
+            "gallery/bead1.jpeg",
+            "gallery/bead2.jpeg",
+            "gallery/bead3.jpeg",
+            "gallery/bead4.jpeg",
+            "gallery/bead5.jpeg",
+            "gallery/bead6.jpeg",
+            "gallery/bead7.jpeg",
+            "gallery/bead8.jpeg",
+            "gallery/bead9.jpeg",
+            "gallery/bead10.jpeg",
+            "gallery/bead11.jpeg",
+            "gallery/bead12.jpeg"
+        ],
+        "description2": [
+            "Se galleri her:",
+            ""
+        ]
+    },
+    {
+        "id": "nisse",
+        "title": "Håndsyet nisse",
+        "subtitle": "Tekstilt projekt – idé til juleforløb på mellemtrinnet",
+        "description": [
+            "Dette var et tekstilt projekt, hvor jeg håndsyede en nisse som undersøgelse af teknikker og udtryk.",
+            "Projektet havde fokus på håndsyning som grundlæggende tekstil teknik og blev suppleret med nålefiltede detaljer for at skabe karakter og struktur.",
+            "Nålefilt blev anvendt til at arbejde mere skulpturelt med detaljer og gav mulighed for at udvikle udtrykket uden brug af maskiner.",
+            "Projektet fungerede som en afprøvning af materialer og teknikker, som jeg i fremtiden kan se elever på mellemtrinnet arbejde med i forbindelse med juletid.",
+            "Arbejdsformen med håndsyning og nålefilt gør projektet velegnet som et overskueligt og stemningsskabende juleforløb, der kan tilpasses forskellige niveauer."
+        ],
+        "gallery": [
+            "gallery/nisse.jpeg",
+            "gallery/nisse1.jpeg",
+            "gallery/nisse2.jpeg",
+            "gallery/nisse3.jpeg",
+            "gallery/nisse4.jpeg"
+        ],
+        "description2": [
+            "Se galleri her:",
+            ""
+        ]
+    },
+
+
     {
         "id": "Tekstiltryk",
         "title": "Tekstiltryk og frotage",
