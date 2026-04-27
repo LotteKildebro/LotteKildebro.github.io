@@ -163,6 +163,25 @@
             ""
         ]
     },
+
+
+    {
+        "id": "proeveoplaeg",
+        "title": "Prøveoplæg",
+        "subtitle": "Udarbejdet til medstuderende i håndværk og design",
+        "description": [
+            "Dette er et prøveoplæg, som jeg har udarbejdet til en medstuderende som led i forberedelsen til prøven i håndværk og design.",
+            "Oplægget har fokus på prøvens opbygning, faglige krav og designprocesser og er tænkt som et praksisnært redskab i prøveforberedelsen.",
+            "Se prøveoplæg her:",
+            ""
+        ],
+        "url": "<a href=\"https://docs.google.com/document/d/e/2PACX-1vQ5IGqK9MaFN3mrMrUkza-1EZjbJMDobgOMQHG-OsA68gO0UDHCW3nRilolXJrRMjVr5gX68eFXvjGa/pub\" target=\"_blank\">Link til prøveoplæg</a>",
+        "description2": [
+            ""
+        ]
+    },
+
+
     {
         "id": "fortællerpose",
         "title": "Fortællerpose",
