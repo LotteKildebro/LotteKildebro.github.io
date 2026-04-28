@@ -356,3 +356,56 @@ a.portfolio-item {
         padding: 0.4em;
     }
 }
+
+/* === OM MIG – DEFAULT (DESKTOP) === */
+
+.about {
+    padding: 60px 10%;
+}
+
+.about-container {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.about-image img {
+    width: 280px;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.about-text {
+    max-width: 700px;
+    line-height: 1.6;
+}
+
+/* === TABLET & MOBIL === */
+
+/* Billede OVER teksten */
+
+@media (max-width: 900px) {
+    .about-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-image img {
+        width: 80%;
+        max-width: 300px;
+        margin-bottom: 30px;
+    }
+    .about-text {
+        max-width: 100%;
+    }
+}
+
+/* === MOBIL (EKSTRA FINJUSTERING) === */
+
+@media (max-width: 600px) {
+    .about {
+        padding: 40px 6%;
+    }
+    .about-text p {
+        font-size: 0.95rem;
+    }
+}
