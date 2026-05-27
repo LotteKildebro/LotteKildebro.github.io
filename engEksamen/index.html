@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lærermidler, Engelsk og Teknologi</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="header">
+        <a class="brand" href="#home" aria-label="Til forsiden">
+            <img class="logo" src="assets/logo.png" alt="Logo" />
+        </a>
+
+        <button class="menuBtn" id="menuBtn" aria-label="Menu" aria-expanded="false">☰</button>
+    </header>
+
+    <nav class="menu hidden" id="menu" aria-label="Menu">
+        <button class="closeBtn" id="closeBtn" aria-label="Luk menu">✕</button>
+        <nav class="menu hidden" id="menu" aria-label="Menu">
+
+            <button class="closeBtn" id="closeBtn" aria-label="Luk menu">✕</button>
+
+            <a class="menuLink" href="#home">Forside</a>
+            <a class="menuLink" href="#material1">Digital storytelling</a>
+            <a class="menuLink" href="#material2">AI og etik</a>
+            <a class="menuLink" href="#material3">Web og kommunikation</a>
+        </nav>
+        <a class="menuLink" href="#home">Forside</a>
+        <a class="menuLink" href="#material1">Digital storytelling</a>
+        <a class="menuLink" href="#material2">AI og etik</a>
+        <a class="menuLink" href="#material3">Web og kommunikation</a>
+    </nav>
+
+    <div class="topBar" aria-label="Lærermidler">
+        <div class="topCards">
+            <a class="topCard" href="#material1">
+                <div class="topCardTitle">Digital Storytelling</div>
+                <div class="topCardMeta">Download, forløb, elevark</div>
+            </a>
+
+            <a class="topCard" href="#material2">
+                <div class="topCardTitle">AI og etik</div>
+                <div class="topCardMeta">Cases, debat, refleksion</div>
+            </a>
+
+            <a class="topCard" href="#material3">
+                <div class="topCardTitle">Web og kommunikation</div>
+                <div class="topCardMeta">Design, sprog, produktion</div>
+            </a>
+        </div>
+    </div>
+
+    <main class="page">
+        <section class="panel" id="home" data-observe="home">
+            <div class="panelInner center">
+                <h1 class="heroTitle">Engelsk og teknologi</h1>
+                <p class="heroText">
+                    Tre lærermidler du kan downloade. Scroll ned for fuldskærms uddybning af hvert lærermiddel.
+                </p>
+                <p class="scrollHint">Scroll</p>
+            </div>
+        </section>
+
+        <section class="panel" id="material1" data-observe="material1">
+            <div class="panelInner twoCol">
+                <div class="textCol">
+                    <h2 class="panelTitle">Digital Storytelling</h2>
+                    <p class="panelLead">
+                        Elever arbejder med fortælling på engelsk og producerer et digitalt produkt med tydelig målgruppe.
+                    </p>
+
+                    <div class="block">
+                        <h3>Indhold</h3>
+                        <p>Forløbsplan, elevark, feedbackkriterier, differentiering og tidsplan.</p>
+                    </div>
+
+                    <div class="block">
+                        <h3>Produktion</h3>
+                        <p>Book Creator, WeVideo eller Stop Motion, afhængigt af niveau og udstyr.</p>
+                    </div>
+
+                    <a class="btn" href="assets/material1.pdf" download>Download lærermiddel</a>
+                </div>
+
+                <div class="mediaCol">
+                    <img class="media" src="assets/material1.jpg" alt="Billede til lærermiddel 1" />
+                </div>
+            </div>
+        </section>
+
+        <section class="panel" id="material2" data-observe="material2">
+            <div class="panelInner twoCol">
+                <div class="textCol">
+                    <h2 class="panelTitle">AI og etik</h2>
+                    <p class="panelLead">
+                        Elever arbejder med sprog, kildekritik og etisk refleksion gennem cases om AI i hverdagen.
+                    </p>
+
+                    <div class="block">
+                        <h3>Indhold</h3>
+                        <p>Casekort, diskussionsspørgsmål, begrebsbank på engelsk og kort evaluering.</p>
+                    </div>
+
+                    <div class="block">
+                        <h3>Aktivitet</h3>
+                        <p>Mini debat, poster pitch eller podcast, hvor elever argumenterer med begreber.</p>
+                    </div>
+
+                    <a class="btn" href="assets/material2.pdf" download>Download lærermiddel</a>
+                </div>
+
+                <div class="mediaCol">
+                    <img class="media" src="assets/material2.jpg" alt="Billede til lærermiddel 2" />
+                </div>
+            </div>
+        </section>
+
+        <section class="panel" id="material3" data-observe="material3">
+            <div class="panelInner twoCol">
+                <div class="textCol">
+                    <h2 class="panelTitle">Web og kommunikation</h2>
+                    <p class="panelLead">
+                        Elever designer en simpel webside på engelsk med fokus på målgruppe, budskab og layout.
+                    </p>
+
+                    <div class="block">
+                        <h3>Indhold</h3>
+                        <p>Skabelon, opgaveark, ordforråd til web og evalueringskriterier.</p>
+                    </div>
+
+                    <div class="block">
+                        <h3>Produkt</h3>
+                        <p>One page site, pitch tekst og kort refleksion over design og sprog.</p>
+                    </div>
+
+                    <a class="btn" href="assets/material3.pdf" download>Download lærermiddel</a>
+                </div>
+
+                <div class="mediaCol">
+                    <img class="media" src="assets/material3.jpg" alt="Billede til lærermiddel 3" />
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="blurOverlay" aria-hidden="true"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
